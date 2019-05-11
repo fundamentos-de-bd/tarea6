@@ -79,11 +79,11 @@ CREATE TABLE tener (
 --Ingresar
 CREATE TABLE ingresar (
     id_medico NUMBER(10),
-    id_eaciente NUMBER(10),
+    id_paciente NUMBER(10),
     cama NUMBER(4) NOT NULL,
     habitación VARCHAR(7) NOT NULL,
     num_ingreso NUMBER(10) GENERATED ALWAYS AS IDENTITY,
-    fecha_ingreso DATE NOT NULL
+    fecha_ingreso DATE DEFAULT CURRENT_DATE
 );
 
 -- Conservar la información de registros siempre
@@ -110,7 +110,7 @@ CREATE TABLE consultar (
     id_paciente NUMBER(10),
     consultorio VARCHAR(6), --Supongo que serían cosas como 11-A ó 102 y así
     num_consulta NUMBER(10) GENERATED ALWAYS AS IDENTITY,
-    fecha_consulta DATE NOT NULL --Vital para expediente médico?
+    fecha_consulta DATE DEFAULT CURRENT_DATE --Vital para expediente médico?
 );
 -- Conservar la información de registros siempre
     ALTER TABLE consultar 
