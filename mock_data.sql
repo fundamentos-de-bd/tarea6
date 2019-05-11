@@ -1,6 +1,6 @@
 -- Médicos
 -- Primeros diez médicos, sin supervisores
-INSERT INTO chief_doctors (nombre, paterno, materno, calle, num, ciudad, cp) VALUES
+INSERT INTO chief_doctors (nombre, paterno, materno, calle, num, ciudad, cp) VALUES(
     ('Conny','MacKomb','Dymocke','Sage','3320','Shchukino','19222'),
     ('Vladamir','Cicconetti','Mackneis','Westridge','830','Moyuan','48259'),
     ('Lorens','Ortells','Lynett','Merchant','91869','Shabel’skoye','33873'),
@@ -10,10 +10,10 @@ INSERT INTO chief_doctors (nombre, paterno, materno, calle, num, ciudad, cp) VAL
     ('Nichols','Dowling','Pedycan','Dunning','22','Kakanj','89737'),
     ('Caz','Forbes','Sawood','Butterfield','700','Umeå','19327'),
     ('Marji','Seamon','Newarte','Clove','08','Pirok','12710'),
-    ('Rayshell','Aspinal','Matusiak','7th','2594','Anaráchi','61502');
+    ('Rayshell','Aspinal','Matusiak','7th','2594','Anaráchi','61502'));
 
 -- Otros 40 médicos, supervisados por los 10 anteriores
-INSERT INTO medico (nombre, paterno, materno, calle, num, ciudad, cp, id_supervisor) VALUES
+INSERT INTO medico (nombre, paterno, materno, calle, num, ciudad, cp, id_supervisor) VALUES(
     ('Clyve', 'Fishburn', 'Kemster', 'Butterfield', '0', 'Umeå', '92654', 8),
     ('Galen', 'Tucker', 'Cuesta', 'Nelson', '6', 'Kozelets’', '63145', 6),
     ('Vinnie', 'Vedikhov', 'McLleese', '7th', '38780', 'Anaráchi', '22595', 10),
@@ -53,11 +53,11 @@ INSERT INTO medico (nombre, paterno, materno, calle, num, ciudad, cp, id_supervi
     ('Felice', 'Eakins', 'Oliva', 'Sage', '6919', 'Shchukino', '42621', 1),
     ('Bartlett', 'Crosen', 'Rakes', 'Merchant', '2', 'Shabel’skoye', '12795', 3),
     ('Erv', 'Glanton', 'Wrightson', 'Sage', '7', 'Shchukino', '25070', 1),
-    ('Jannel', 'Povey', 'Kisby', 'Merchant', '771', 'Shabel’skoye', '19155', 3);
+    ('Jannel', 'Povey', 'Kisby', 'Merchant', '771', 'Shabel’skoye', '19155', 3));
     
 -- Doscientos pacientes
 
-INSERT INTO pacientes (nombre, paterno, materno, calle, ciudad, cp) VALUES 
+INSERT INTO pacientes (nombre, paterno, materno, calle, ciudad, cp) VALUES (
     ('Nevin', 'Treffrey', 'Blandamere', 'Tennyson', 'Saguday', '41329'),
     ('Tucky', 'Dominka', 'Howarth', 'Thompson', 'Liqiao', '72717'),
     ('Anderea', 'Millard', 'Syphas', '7th', 'Cheongju-si', '36889'),
@@ -257,10 +257,10 @@ INSERT INTO pacientes (nombre, paterno, materno, calle, ciudad, cp) VALUES
     ('Neil', 'Udall', 'Hickenbottom', 'Riverside', 'Manikchari', '50981'),
     ('Malchy', 'Patkin', 'Kull', 'Talmadge', 'Buenaventura', '07706'),
     ('Pacorro', 'Rignall', 'Torfin', 'Stoughton', 'São Sebastião do Passé', '66729'),
-    ('Sergent', 'Currier', 'Elsdon', 'Fieldstone', 'Sanxi', '99967');
+    ('Sergent', 'Currier', 'Elsdon', 'Fieldstone', 'Sanxi', '99967'));
     
 -- Cincuenta ingresos
-INSERT INTO ingresar (id_medico, id_paciente, cama, habitación, fecha_ingreso) VALUES 
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitación, fecha_ingreso) VALUES (
     (1, 7, '966', 'A-976', TO_DATE('2017-12-26 12:40:13', 'yyyy-mm-dd hh24:mi:ss')),
     (9, 176, '568', 'H-488', TO_DATE('2017-03-30 22:19:23', 'yyyy-mm-dd hh24:mi:ss')),
     (10, 52, '939', 'X-660', TO_DATE('2012-04-24 06:15:26', 'yyyy-mm-dd hh24:mi:ss')),
@@ -310,10 +310,10 @@ INSERT INTO ingresar (id_medico, id_paciente, cama, habitación, fecha_ingreso) V
     (23, 118, '245', 'K-598', TO_DATE('2012-11-09 22:28:48', 'yyyy-mm-dd hh24:mi:ss')),
     (33, 72, '905', 'P-910', TO_DATE('2014-07-13 23:16:31', 'yyyy-mm-dd hh24:mi:ss')),
     (23, 172, '589', 'M-878', TO_DATE('2018-01-07 03:04:34', 'yyyy-mm-dd hh24:mi:ss')),
-    (15, 146, '327', 'Y-969', TO_DATE('2011-05-13 02:07:49', 'yyyy-mm-dd hh24:mi:ss'));
+    (15, 146, '327', 'Y-969', TO_DATE('2011-05-13 02:07:49', 'yyyy-mm-dd hh24:mi:ss')));
     
 -- Cincuenta consultas
-INSERT INTO consultas (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+INSERT INTO consultas (id_medico, id_paciente, consultorio, fecha_consulta) VALUES (
     (27, 100, 'F-263', TO_DATE('2011-02-12 20:30:03', 'yyyy-mm-dd hh24:mi:ss')),
     (29, 126, 'U-991', TO_DATE('2015-04-02 08:04:45', 'yyyy-mm-dd hh24:mi:ss')),
     (32, 87, 'G-809', TO_DATE('2014-05-29 04:12:56', 'yyyy-mm-dd hh24:mi:ss')),
@@ -363,4 +363,4 @@ INSERT INTO consultas (id_medico, id_paciente, consultorio, fecha_consulta) VALU
     (46, 43, 'T-350', TO_DATE('2017-01-13 11:20:48', 'yyyy-mm-dd hh24:mi:ss')),
     (75, 8, 'W-128', TO_DATE('2015-01-08 02:39:31', 'yyyy-mm-dd hh24:mi:ss')),
     (89, 94, 'F-879', TO_DATE('2014-04-24 15:45:12', 'yyyy-mm-dd hh24:mi:ss')),
-    (20, 69, 'K-220', TO_DATE('2012-07-14 04:20:33', 'yyyy-mm-dd hh24:mi:ss'));
+    (20, 69, 'K-220', TO_DATE('2012-07-14 04:20:33', 'yyyy-mm-dd hh24:mi:ss')));
