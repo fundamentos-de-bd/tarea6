@@ -6,20 +6,20 @@
 
 
 -- ========================================================================== --
---  a.Mostrar el n�mero de consultas que ha brindado cada m�dico por a�o y trimestre.
---Soluci�n.
+--  a.Mostrar el número de consultas que ha brindado cada médico por año y trimestre.
+--Solución.
 
-SELECT id_medico, a�o, trimestre, COUNT(num_consulta) "Numero de consultas"
-FROM (SELECT num_consulta, id_medico, TO_CHAR(fecha_consulta, 'YYYY') AS a�o, 
+SELECT id_medico, año, trimestre, COUNT(num_consulta) "Numero de consultas"
+FROM (SELECT num_consulta, id_medico, TO_CHAR(fecha_consulta, 'YYYY') AS año, 
       TO_CHAR(fecha_consulta, 'Q') AS trimestre   
       FROM consultar)
-GROUP BY id_medico, a�o, trimestre;
+GROUP BY id_medico, año, trimestre;
 
 -- ========================================================================== --
 
 -- ========================================================================== --
---  c.Nombre del m�dico y especialidades que tiene, de aquel que haya impartido m�s consultas.
---Soluci�n.
+--  c.Nombre del médico y especialidades que tiene, de aquel que haya impartido más consultas.
+--Solución.
 SELECT nombre, paterno, materno, nombre_especialidad
 FROM (SELECT id_medico
       FROM(SELECT id_medico, COUNT(num_consulta) AS Numero_de_consultas
@@ -30,7 +30,7 @@ FROM (SELECT id_medico
                                         FROM consultar
                                         GROUP BY id_medico))
       ) NATURAL JOIN (
-        SELECT id_medico, nombre, paterno, materno FROM medico NATURAL JOIN (
+        SELECT id_medico, nombre, paterno, materno, nombre_especialidad FROM medico NATURAL JOIN (
             SELECT * FROM tener NATURAL JOIN especialidad
             )
         );   
@@ -40,8 +40,8 @@ FROM (SELECT id_medico
 
 
 -- ========================================================================== --
---  d.Informaci�n de los pacientes que ingresaron en el cuarto trimestre de un a�o que tu elijas y m�dico que les fue asignado.
---Soluci�n.
+--  d.Información de los pacientes que ingresaron en el cuarto trimestre de un año que tu elijas y médico que les fue asignado.
+--Solución.
 SELECT id_paciente, paciente.nombre, paciente.paterno, paciente.materno, medico.nombre, medico.paterno
 FROM (SELECT id_paciente
       FROM consultar
@@ -51,9 +51,9 @@ FROM (SELECT id_paciente
 
 
 -- ========================================================================== --
---  e.Informaci�n de los m�dicos que han sido pacientes, mostrar tambi�n el nombre completo del m�dico 
---    que los atendi� y fecha de la consulta.
---Soluci�n.
+--  e.Información de los médicos que han sido pacientes, mostrar también el nombre completo del médico 
+--    que los atendió y fecha de la consulta.
+--Solución.
 
 (SELECT medico.id_medico, paciente.id_paciente
 FROM paciente JOIN medico
@@ -62,21 +62,21 @@ ON medico.nombre = paciente.nombre and medico.paterno = paciente.paterno and med
 
 
 -- ========================================================================== --
---  f.Toda la informaci�n de los pacientes que no han recibido consulta.
---Soluci�n.
+--  f.Toda la información de los pacientes que no han recibido consulta.
+--Solución.
 -- ========================================================================== --
 
 
 -- ========================================================================== --
 --  g.Pacientes que han tomado consulta en cada uno de los consultorios del hospital.
---Solución.
+--SoluciÃ³n.
 -- ========================================================================== --
 
 
 -- ========================================================================== --
 --  h.Pacientes que han ingresado por lo menos una vez al hospital, cuyo estado de procedencia 
 --    sea CHIAPAS y su primer apellido sea MOLINA (puedes cambiar el estado y el apellido).
---Solución.
+--SoluciÃ³n.
 -- ========================================================================== --
 (SELECT id_paciente
 FROM paciente
@@ -84,18 +84,18 @@ WHERE paterno LIKE "Molina" AND REGEXP_LIKE (cp, '^(29|30)(*)')) NATURAL JOIN
 SELECT id_paciente FROM ingresar;
 
 -- ========================================================================== --
---  i.Indicar trimestre y año en que se impartieron más consultas.
---Solución.
+--  i.Indicar trimestre y aÃ±o en que se impartieron mÃ¡s consultas.
+--SoluciÃ³n.
 -- ========================================================================== --
 SELECT EXTRACT(QUARTER FROM fecha_consulta) trismestre, 
-    EXTRACT(YEAR FROM fecha_consulta) año, MAX(COUNT(num_consulta)) max_num_consultas
+    EXTRACT(YEAR FROM fecha_consulta) aÃ±o, MAX(COUNT(num_consulta)) max_num_consultas
     FROM consultar
     GROUP BY EXTRACT(QUARTER FROM fecha_consulta), EXTRACT(YEAR FROM fecha_consulta)
 
 -- ========================================================================== --
---  j.Consultas que se impartieron por tipo de especialidad de julio a diciembre de un año que 
---    tú elijas(se debe mostrar el nombre del mes).
---Solución.
+--  j.Consultas que se impartieron por tipo de especialidad de julio a diciembre de un aÃ±o que 
+--    tÃº elijas(se debe mostrar el nombre del mes).
+--SoluciÃ³n.
 SELECT especialidad, num_consulta, TO_CHAR(fecha_consulta, 'MONTH') mes
     FROM consultar NATURAL JOIN tener
     WHERE EXTRACT(YEAR FROM fecha_consulta) = 2017 
@@ -105,8 +105,8 @@ SELECT especialidad, num_consulta, TO_CHAR(fecha_consulta, 'MONTH') mes
 
 
 -- ========================================================================== --
---  k.Información de los pacientes que hayan sido atendidos por todos los médicos.
---Solución.
+--  k.InformaciÃ³n de los pacientes que hayan sido atendidos por todos los mÃ©dicos.
+--SoluciÃ³n.
 -- ========================================================================== --
 SELECT *
     FROM paciente
@@ -124,8 +124,8 @@ SELECT *
     );
 
 -- ========================================================================== --
---  l.Mostrar la información de los pacientes que tengan el mayor número de ingresos al Hospital.
---Solución.
+--  l.Mostrar la informaciÃ³n de los pacientes que tengan el mayor nÃºmero de ingresos al Hospital.
+--SoluciÃ³n.
 SELECT *
     FROM paciente NATURAL JOIN 
     (
@@ -140,8 +140,8 @@ SELECT *
 
 
 -- ========================================================================== --
---  m.¿Cuál es la fecha de ingreso más antigua en el hospital? (deberás utilizar en tu consulta EXISTS o NOT EXISTS)
---Solución.
+--  m.Â¿CuÃ¡l es la fecha de ingreso mÃ¡s antigua en el hospital? (deberÃ¡s utilizar en tu consulta EXISTS o NOT EXISTS)
+--SoluciÃ³n.
 SELECT fecha_ingreso
     FROM ingresar A
     WHERE NOT EXISTS (
@@ -153,50 +153,50 @@ SELECT fecha_ingreso
 
 
 -- ========================================================================== --
---  n.Encontrar  a  todos  los  médicosque  viven  en  la  misma  ciudad  y  en  la  misma  calle  que  su supervisor.
---Solución.
+--  n.Encontrar  a  todos  los  mÃ©dicosque  viven  en  la  misma  ciudad  y  en  la  misma  calle  que  su supervisor.
+--SoluciÃ³n.
 -- ========================================================================== --
 
 
 -- ========================================================================== --
---  o.Nombre completo de los pacientes (agrupados por especialidad) que ingresaron en los últimos 7 días.
---Solución.
+--  o.Nombre completo de los pacientes (agrupados por especialidad) que ingresaron en los Ãºltimos 7 dÃ­as.
+--SoluciÃ³n.
 -- ========================================================================== --
 
 
 -- ========================================================================== --
---  p.Totalde pacientes que se han tenido por año y especialidad en cada habitación por tipo de cama.
---Solución.
+--  p.Totalde pacientes que se han tenido por aÃ±o y especialidad en cada habitaciÃ³n por tipo de cama.
+--SoluciÃ³n.
 -- ========================================================================== --
 
 
 -- ========================================================================== --
---  q.Cantidad de pacientes, por año y especialidad, que hayan tomado consulta y que tenga entre 35 y 55 años de edad 
+--  q.Cantidad de pacientes, por aÃ±o y especialidad, que hayan tomado consulta y que tenga entre 35 y 55 aÃ±os de edad 
 --    (puedes modificar este rangomonth).
---Solución.
+--SoluciÃ³n.
 -- ========================================================================== --
 
 
 -- ========================================================================== --
---  r.Nombre completo y número de consultas, de aquellos que asistieron a un número superior de consultas que el
---    promedio de éstas durante el primer trimestre de un año que tú elijas.
---Solución.
+--  r.Nombre completo y nÃºmero de consultas, de aquellos que asistieron a un nÃºmero superior de consultas que el
+--    promedio de Ã©stas durante el primer trimestre de un aÃ±o que tÃº elijas.
+--SoluciÃ³n.
 -- ========================================================================== --
 
 
 -- ========================================================================== --
---  s.Mostrar la distribución de pacientes que han ingresado al hospital por estado, año y trimestre.
---Solución.
+--  s.Mostrar la distribuciÃ³n de pacientes que han ingresado al hospital por estado, aÃ±o y trimestre.
+--SoluciÃ³n.
 -- ========================================================================== --
 
 
 -- ========================================================================== --
---  t.Pacientes que haya tenido el mismo número de ingresos y de consultas al hospital.
---Solución.
+--  t.Pacientes que haya tenido el mismo nÃºmero de ingresos y de consultas al hospital.
+--SoluciÃ³n.
 -- ========================================================================== --
 
 
 -- ========================================================================== --
 --  u.Obtener una lista de los pacientescuyo apellido paterno comience con las letras A, D, G, J, L, P o R.
---Solución.
+--SoluciÃ³n.
 -- ========================================================================== --
