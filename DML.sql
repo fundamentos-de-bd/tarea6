@@ -6,42 +6,60 @@
 
 
 -- ========================================================================== --
---  a.Mostrar el n√∫mero de consultas que ha brindado cada m√©dico por a√±o y trimestre.
---Soluci√≥n.
+--  a.Mostrar el n˙mero de consultas que ha brindado cada mÈdico por aÒo y trimestre.
+--SoluciÛn.
 
-SELECT id_medico, a√±o, trimestre
-       COUNT(num_consulta) "Numero de consultas"
-FROM consultar
-GROUP BY id_medico, a√±o, trimestre;
-
--- ========================================================================== --
---  b.Informaci√≥n de los pacientes que recibieron consulta el d√≠a de su cumplea√±os.
---Soluci√≥n.
--- ========================================================================== --
-
+SELECT id_medico, aÒo, trimestre, COUNT(num_consulta) "Numero de consultas"
+FROM (SELECT id_medico, TO_CHAR(fecha_consulta, 'YYYY') AS aÒo, 
+      TO_CHAR(fecha_consulta, 'Q') AS trimestre       
+      FROM consultar)
+GROUP BY id_medico, aÒo, trimestre;
 
 -- ========================================================================== --
---  c.Nombre del m√©dico y especialidades que tiene, de aquel que haya impartido m√°s consultas.
---Soluci√≥n.
--- ========================================================================== --
-
 
 -- ========================================================================== --
---  d.Informaci√≥n de los pacientes que ingresaron en el cuarto trimestre de un a√±o que t√∫ elijasy m√©dico que les fue asignado.
---Soluci√≥n.
--- ========================================================================== --
+--  c.Nombre del mÈdico y especialidades que tiene, de aquel que haya impartido m·s consultas.
+--SoluciÛn.
+SELECT nombre, paterno, materno, especialidad
+FROM (SELECT id_medico
+      FROM(SELECT id_medico, COUNT(num_consulta) AS Numero_de_consultas
+           FROM consultar
+           GROUP BY id_medico)
+      WHERE Numero_de_consultas = (SELECT MAX(consultas)
+                                   FROM(SELECT id_medico, COUNT(num_consulta) AS consultas
+                                        FROM consultar
+                                        GROUP BY id_medico))
+      ) NATURAL JOIN medico NATURAL JOIN tener NATURAL JOIN especialidad;   
 
-
--- ========================================================================== --
---  e.Informaci√≥n de los m√©dicos que han sido pacientes, mostrar tambi√©n el nombre completo del m√©dico 
---    que los atendi√≥ y fecha de la consulta.
---Soluci√≥n.
+           
 -- ========================================================================== --
 
 
 -- ========================================================================== --
---  f.Toda la informaci√≥n de los pacientes que no han recibido consulta.
---Soluci√≥n.
+--  d.InformaciÛn de los pacientes que ingresaron en el cuarto trimestre de un aÒo que tu elijas y mÈdico que les fue asignado.
+--SoluciÛn.
+SELECT id_paciente, paciente.nombre, paciente.paterno, paciente.materno, medico.nombre, medico.paterno
+FROM (SELECT id_paciente
+      FROM consultar
+      WHERE TO_CHAR(fecha_ingreso, 'Q')= 4 and TO_CHAR(fecha_ingreso) = 2000) NATURAL JOIN  ingresar 
+      NATURAL JOIN medico NATURAL JOIN paciente;
+-- ========================================================================== --
+
+
+-- ========================================================================== --
+--  e.InformaciÛn de los mÈdicos que han sido pacientes, mostrar tambiÈn el nombre completo del mÈdico 
+--    que los atendiÛ y fecha de la consulta.
+--SoluciÛn.
+
+(SELECT medico.id_medico, paciente.id_paciente
+FROM paciente JOIN medico
+ON medico.nombre = paciente.nombre and medico.paterno = paciente.paterno and medico.materno = paciente.materno)
+-- ========================================================================== --
+
+
+-- ========================================================================== --
+--  f.Toda la informaciÛn de los pacientes que no han recibido consulta.
+--SoluciÛn.
 -- ========================================================================== --
 
 

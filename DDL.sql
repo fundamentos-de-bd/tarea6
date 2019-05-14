@@ -7,12 +7,15 @@ CREATE TABLE medico (
     paterno VARCHAR(40) NOT NULL,
     materno VARCHAR(40),
     calle   VARCHAR(40) NOT NULL,
-    num VARCHAR(10),
+    numero VARCHAR(10),
     ciudad VARCHAR(20),
     cp  VARCHAR(6) NOT NULL,
     id_supervisor NUMBER(10)
 );
 
+  ALTER TABLE medico 
+        ADD CONSTRAINT pk_medico
+        PRIMARY KEY (id_medico);
     ALTER TABLE medico  
     -- Llave foránea desde el id_medico, hay que corregir el diagrama
     -- Médico puede no tener supervisor.
@@ -20,10 +23,6 @@ CREATE TABLE medico (
         FOREIGN KEY (id_supervisor)
         REFERENCES medico(id_medico)
         ON DELETE SET NULL;
-
-    ALTER TABLE medico 
-        ADD CONSTRAINT pk_medico
-        PRIMARY KEY (id_medico);
     
 --Paciente
 CREATE TABLE paciente (
@@ -88,14 +87,14 @@ CREATE TABLE ingresar (
 
 -- Conservar la información de registros siempre
     ALTER TABLE ingresar 
-        ADD CONSTRAINT fk_id_medico
+        ADD CONSTRAINT fk_id_medico_ing
         FOREIGN KEY (id_medico)
         REFERENCES medico(id_medico)
         ON DELETE SET NULL;
 
 -- Conservar la información de registros siempre    
     ALTER TABLE ingresar 
-        ADD CONSTRAINT fk_id_paciente
+        ADD CONSTRAINT fk_id_paciente_ing
         FOREIGN KEY (id_paciente)
         REFERENCES paciente(id_paciente)
         ON DELETE SET NULL;
@@ -114,14 +113,14 @@ CREATE TABLE consultar (
 );
 -- Conservar la información de registros siempre
     ALTER TABLE consultar 
-        ADD CONSTRAINT fk_idmedico
+        ADD CONSTRAINT fk_id_medico_cons
         FOREIGN KEY (id_medico)
         REFERENCES medico(id_medico)
         ON DELETE SET NULL;
 
 -- Conservar la información de registros siempre
     ALTER TABLE consultar 
-        ADD CONSTRAINT fk_id_paciente
+        ADD CONSTRAINT fk_id_paciente_con
         FOREIGN KEY (id_paciente)
         REFERENCES paciente(id_paciente)
         ON DELETE SET NULL;

@@ -1,7 +1,7 @@
 -- Médicos
 -- Primeros diez médicos, sin supervisores
-INSERT INTO medico (nombre, paterno, materno, calle, num, ciudad, cp) VALUES(
-    ('Conny','MacKomb','Dymocke','Sage','3320','Shchukino','19222'),
+INSERT INTO medico (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES
+    (('Conny','MacKomb','Dymocke','Sage','3320','Shchukino','19222'),
     ('Vladamir','Cicconetti','Mackneis','Westridge','830','Moyuan','48259'),
     ('Lorens','Ortells','Lynett','Merchant','91869','Shabel’skoye','33873'),
     ('Obie','Garrison','Lurcock','Sugar','262','Shaxi','48568'),
