@@ -8,7 +8,7 @@ CREATE TABLE medico (
     materno VARCHAR(40),
     calle   VARCHAR(40) NOT NULL,
     numero VARCHAR(10),
-    ciudad VARCHAR(20),
+    ciudad VARCHAR(50),
     cp  VARCHAR(6) NOT NULL,
     id_supervisor NUMBER(10)
 );
@@ -32,7 +32,7 @@ CREATE TABLE paciente (
     materno VARCHAR(40),
     calle   VARCHAR(40) NOT NULL,
     num VARCHAR(10),
-    ciudad VARCHAR(10) NOT NULL,
+    ciudad VARCHAR(50) NOT NULL,
     cp  VARCHAR(6) NOT NULL
 );
 
@@ -80,7 +80,7 @@ CREATE TABLE ingresar (
     id_medico NUMBER(10),
     id_paciente NUMBER(10),
     cama NUMBER(4) NOT NULL,
-    habitación VARCHAR(7) NOT NULL,
+    habitacion VARCHAR(7) NOT NULL,
     num_ingreso NUMBER(10) GENERATED ALWAYS AS IDENTITY,
     fecha_ingreso DATE DEFAULT CURRENT_DATE
 );

@@ -10,8 +10,8 @@
 --Solución.
 
 SELECT id_medico, año, trimestre, COUNT(num_consulta) "Numero de consultas"
-FROM (SELECT id_medico, TO_CHAR(fecha_consulta, 'YYYY') AS año, 
-      TO_CHAR(fecha_consulta, 'Q') AS trimestre       
+FROM (SELECT num_consulta, id_medico, TO_CHAR(fecha_consulta, 'YYYY') AS año, 
+      TO_CHAR(fecha_consulta, 'Q') AS trimestre   
       FROM consultar)
 GROUP BY id_medico, año, trimestre;
 
@@ -20,7 +20,7 @@ GROUP BY id_medico, año, trimestre;
 -- ========================================================================== --
 --  c.Nombre del médico y especialidades que tiene, de aquel que haya impartido más consultas.
 --Solución.
-SELECT nombre, paterno, materno, especialidad
+SELECT nombre, paterno, materno, nombre_especialidad
 FROM (SELECT id_medico
       FROM(SELECT id_medico, COUNT(num_consulta) AS Numero_de_consultas
            FROM consultar
@@ -29,7 +29,11 @@ FROM (SELECT id_medico
                                    FROM(SELECT id_medico, COUNT(num_consulta) AS consultas
                                         FROM consultar
                                         GROUP BY id_medico))
-      ) NATURAL JOIN medico NATURAL JOIN tener NATURAL JOIN especialidad;   
+      ) NATURAL JOIN (
+        SELECT id_medico, nombre, paterno, materno FROM medico NATURAL JOIN (
+            SELECT * FROM tener NATURAL JOIN especialidad
+            )
+        );   
 
            
 -- ========================================================================== --
