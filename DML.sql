@@ -9,11 +9,11 @@
 --  a.Mostrar el número de consultas que ha brindado cada médico por año y trimestre.
 --Solución.
 
-SELECT id_medico, año, trimestre, COUNT(num_consulta) "Numero de consultas"
-FROM (SELECT num_consulta, id_medico, TO_CHAR(fecha_consulta, 'YYYY') AS año, 
+SELECT id_medico, a�o, trimestre, COUNT(num_consulta) "Numero de consultas"
+FROM (SELECT num_consulta, id_medico, TO_CHAR(fecha_consulta, 'YYYY') AS a�o, 
       TO_CHAR(fecha_consulta, 'Q') AS trimestre   
       FROM consultar)
-GROUP BY id_medico, año, trimestre;
+GROUP BY id_medico, a�o, trimestre;
 
 -- ========================================================================== --
 
@@ -43,7 +43,7 @@ FROM (SELECT id_medico
 --  d.Información de los pacientes que ingresaron en el cuarto trimestre de un año que tu elijas y médico que les fue asignado.
 --Solución.
 SELECT id_paciente, paciente.nombre, paciente.paterno , paciente.materno, paciente.calle, 
-       paciente.num, paciente.ciudad, medico.id_medico, medico.nombre, medico.paterno, medico.materno
+       paciente.numero, paciente.ciudad, medico.id_medico, medico.nombre, medico.paterno, medico.materno
 FROM (SELECT id_paciente, id_medico
       FROM ingresar
       WHERE TO_CHAR(fecha_ingreso, 'Q')= 4 AND TO_CHAR(fecha_ingreso, 'YYYY') = 2012) b NATURAL JOIN paciente  
@@ -82,12 +82,13 @@ FROM consultar) NATURAL JOIN paciente);
 -- ========================================================================== --
 --  g.Pacientes que han tomado consulta en cada uno de los consultorios del hospital.
 --SoluciÃ³n.
-SELECT id_paciente
-FROM( SELECT id_paciente, COUNT(consultorio) AS n_consultorios
-      FROM paciente NATURAL JOIN consultar
-      GROUP BY id_paciente)
-WHERE n_consultorios = (SELECT COUNT (DISTINCT (consultorio)) AS num_consultorios
-                        FROM consultar);          
+SELECT  id_paciente, nombre, paterno, materno
+FROM (SELECT id_paciente
+     FROM( SELECT id_paciente, COUNT(consultorio) AS n_consultorios
+           FROM paciente NATURAL JOIN consultar
+           GROUP BY id_paciente)
+     WHERE n_consultorios = (SELECT COUNT (DISTINCT (consultorio)) AS num_consultorios
+                             FROM consultar)) NATURAL JOIN paciente;          
 -- ========================================================================== --
 
 
