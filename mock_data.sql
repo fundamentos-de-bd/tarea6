@@ -619,6 +619,10 @@ INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
 INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
     ('Sergent', 'Currier', 'Elsdon', 'Fieldstone', 'Sanxi', '99967');
     
+-- Paciente atendido por todos
+INSERT INTO paciente (nombre, paterno, materno, calle, num, ciudad, cp) VALUES
+    ('Gerardo', 'Uriel', 'Aviles', 'Insurgentes', 'S/N', 'CDMX', '11000');
+    
 -- Cincuenta ingresos
 INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES
     (1, 7, '966', 'A-976', TO_DATE('2017-12-26 12:40:13', 'yyyy-mm-dd hh24:mi:ss'));
@@ -822,3 +826,105 @@ INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALU
     (39, 94, 'F-879', TO_DATE('2014-04-24 15:45:12', 'yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
     (20, 69, 'K-220', TO_DATE('2012-07-14 04:20:33', 'yyyy-mm-dd hh24:mi:ss'));
+    
+-- Ingresos del paciente atendido por todos
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(1, 201, '598', 'P-211', TO_DATE('2015-07-02 17:47:11', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(2, 201, '102', 'P-211', TO_DATE('2012-05-17 04:58:00', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(3, 201, '046', 'P-211', TO_DATE('2018-12-30 17:42:55', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(4, 201, '664', 'P-211', TO_DATE('2015-06-01 08:44:01', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(5, 201, '115', 'P-211', TO_DATE('2010-10-27 15:24:09', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(6, 201, '672', 'P-211', TO_DATE('2014-06-27 11:52:32', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(7, 201, '195', 'P-211', TO_DATE('2012-05-17 11:07:03', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(8, 201, '761', 'P-211', TO_DATE('2018-04-16 02:05:25', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(9, 201, '689', 'P-211', TO_DATE('2018-11-17 20:26:01', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(10, 201, '421', 'P-211', TO_DATE('2018-06-17 03:16:30', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(11, 201, '477', 'P-211', TO_DATE('2012-07-18 20:07:15', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(12, 201, '505', 'P-211', TO_DATE('2012-03-11 11:34:12', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(13, 201, '069', 'P-211', TO_DATE('2011-06-19 12:15:47', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(14, 201, '443', 'P-211', TO_DATE('2010-10-25 12:33:46', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(15, 201, '917', 'P-211', TO_DATE('2014-01-27 01:24:23', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(16, 201, '978', 'P-211', TO_DATE('2011-07-13 02:23:07', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(17, 201, '184', 'P-211', TO_DATE('2010-10-26 04:52:52', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(18, 201, '572', 'P-211', TO_DATE('2014-08-26 02:57:52', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(19, 201, '723', 'P-211', TO_DATE('2018-06-20 03:20:25', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(20, 201, '921', 'P-211', TO_DATE('2018-01-20 13:12:56', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(21, 201, '725', 'P-211', TO_DATE('2018-02-15 10:34:45', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(22, 201, '203', 'P-211', TO_DATE('2010-08-18 01:09:07', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(23, 201, '019', 'P-211', TO_DATE('2014-07-17 02:24:24', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(24, 201, '180', 'P-211', TO_DATE('2016-03-30 12:55:16', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(25, 201, '590', 'P-211', TO_DATE('2015-02-14 03:17:35', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(26, 201, '859', 'P-211', TO_DATE('2014-09-25 21:30:14', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(27, 201, '258', 'P-211', TO_DATE('2013-09-10 02:55:05', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(28, 201, '853', 'P-211', TO_DATE('2018-08-19 06:13:31', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(29, 201, '945', 'P-211', TO_DATE('2010-06-26 15:17:19', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(30, 201, '436', 'P-211', TO_DATE('2013-03-10 07:24:23', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(31, 201, '709', 'P-211', TO_DATE('2017-10-23 01:33:45', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(32, 201, '230', 'P-211', TO_DATE('2017-03-16 14:43:17', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(33, 201, '469', 'P-211', TO_DATE('2018-12-31 21:11:29', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(34, 201, '052', 'P-211', TO_DATE('2016-12-24 20:16:25', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(35, 201, '421', 'P-211', TO_DATE('2014-07-22 14:15:38', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(36, 201, '858', 'P-211', TO_DATE('2010-05-12 11:44:07', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(37, 201, '538', 'P-211', TO_DATE('2016-04-18 14:00:42', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(38, 201, '623', 'P-211', TO_DATE('2015-02-08 13:59:49', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(39, 201, '897', 'P-211', TO_DATE('2011-09-17 05:22:51', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(40, 201, '091', 'P-211', TO_DATE('2010-08-20 21:07:41', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(41, 201, '145', 'P-211', TO_DATE('2018-05-29 14:26:17', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(42, 201, '354', 'P-211', TO_DATE('2010-05-25 15:28:19', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(43, 201, '323', 'P-211', TO_DATE('2011-03-02 07:45:26', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(44, 201, '205', 'P-211', TO_DATE('2017-10-02 06:10:40', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(45, 201, '057', 'P-211', TO_DATE('2014-09-11 12:24:04', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(46, 201, '589', 'P-211', TO_DATE('2017-01-05 21:03:37', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(47, 201, '284', 'P-211', TO_DATE('2018-07-29 13:14:48', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(48, 201, '652', 'P-211', TO_DATE('2014-03-11 08:16:17', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(49, 201, '196', 'P-211', TO_DATE('2013-07-02 13:19:52', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
+(50, 201, '922', 'P-211', TO_DATE('2019-05-10 18:27:43', 'yyyy-mm-dd hh24:mi:ss'));
