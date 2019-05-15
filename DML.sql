@@ -75,14 +75,14 @@ ON medico.nombre = paciente.nombre and medico.paterno = paciente.paterno and med
 
 -- ========================================================================== --
 --  h.Pacientes que han ingresado por lo menos una vez al hospital, cuyo estado de procedencia 
---    sea OAXACA y su primer apellido sea Hares (puedes cambiar el estado y el apellido).
---SoluciÃ³n.
+--    sea CDMX y su primer apellido sea Uriel (puedes cambiar el estado y el apellido).
+--Solución.
 -- ========================================================================== --
 SELECT DISTINCT id_paciente 
     FROM ingresar NATURAL JOIN (
         SELECT id_paciente
             FROM paciente
-            WHERE paterno LIKE 'Hares' AND REGEXP_LIKE (cp, '^(68|69|70|71)(*)')
+            WHERE paterno LIKE 'Uriel' AND REGEXP_LIKE (cp, '^(0|1)(*)')
         );
 
 
@@ -215,7 +215,7 @@ SELECT fecha_ingreso
 
 
 -- ========================================================================== --
---  s.Mostrar la distribución de pacientes que han ingresado al hospital por estado, aÃ±o y trimestre.
+--  s.Mostrar la distribución de pacientes que han ingresado al hospital por estado, año y trimestre.
 --Solución.
 SELECT *
     FROM (

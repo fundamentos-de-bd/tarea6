@@ -218,409 +218,409 @@ INSERT INTO tener (id_especialidad, id_medico) VALUES (28, 37);
     
 -- Doscientos paciente
 
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Nevin', 'Treffrey', 'Blandamere', 'Tennyson', 'Saguday', '41329');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Tucky', 'Dominka', 'Howarth', 'Thompson', 'Liqiao', '72717');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Anderea', 'Millard', 'Syphas', '7th', 'Cheongju-si', '36889');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Dulcine', 'Benzi', 'Dagwell', 'Truax', 'Siay', '99656');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Coraline', 'Barnbrook', 'Tuttiett', 'Twin Pines', 'Shamva', '28326');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Keefe', 'Jenkins', 'Glasheen', 'Swallow', 'Blantyre', '03239');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Akim', 'Baulk', 'Geekin', 'Basil', 'Lousa', '97353');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Adella', 'Revey', 'Devorill', 'Merrick', 'Arroio Grande', '58237');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Celisse', 'Guiton', 'Drewett', 'Stang', 'Echarate', '36898');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Antonetta', 'Simone', 'Twyford', 'Graceland', 'Geshan', '30159');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Carena', 'Whymark', 'Crother', '4th', 'Prince Albert', '93251');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Florencia', 'Haddrell', 'Kilbey', 'Spenser', 'Capacmarca', '80062');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Aeriela', 'Liebrecht', 'Orrah', 'Algoma', 'Nouvelle France', '46566');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Lura', 'Bramsen', 'Martinelli', 'Maryland', 'Bitung', '92000');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Jillie', 'Moar', 'MacAdie', 'Garrison', 'Tapacocha', '85767');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Goraud', 'Flaxon', 'Moggle', 'Dwight', 'Mohelno', '09120');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Raimundo', 'Omond', 'Spring', 'Bonner', 'Vran� nad Vltavou', '12470');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Chadd', 'Tassell', 'Malone', 'Lunder', 'G?owno', '12626');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Jamie', 'Bedford', 'Vasyukov', 'Dennis', 'Itarana', '11152');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Sarah', 'Beer', 'Schachter', 'Glendale', 'B?jitpur', '41967');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Derry', 'Connar', 'Sisson', 'Manley', 'Caringin Lor', '50490');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Liesa', 'Fronczak', 'Ridgwell', 'Lotheville', 'B?rkah', '43869');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Dominga', 'Burne', 'Vian', 'Elmside', 'Wanfa', '14093');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Ladonna', 'Gillan', 'Haquard', 'Colorado', 'Zhaowu', '27778');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Gery', 'Armstrong', 'Eastam', 'Knutson', 'Eisen', '17296');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Maxim', 'Guyers', 'Breddy', 'Cardinal', 'Uzlovaya', '65458');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Vanda', 'Kalinovich', 'Berryann', 'Waywood', 'Baler Baleagung', '07762');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Abelard', 'Brickstock', 'Thame', 'Mcguire', 'Teut�nia', '09496');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Dollie', 'Wynes', 'Studart', 'Iowa', 'Firenze', '06043');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Camel', 'Beeswing', 'Finicj', 'Ridge Oak', 'Qianjiang', '46159');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Beck', 'McVeighty', 'Dow', 'Barby', 'Frontignan', '46163');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Jeniffer', 'Farman', 'Sellor', 'Arizona', 'Yaozhuang', '45984');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Morgun', 'Pressdee', 'Cottey', 'Maple', 'Puwa', '06093');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Jedd', 'MacNally', 'Jobe', 'Anthes', 'Uyuni', '76986');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Shayla', 'Tsarovic', 'Hospital', 'Luster', 'Ulaandel', '96924');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Domenico', 'Nicholl', 'Snyder', 'Hoard', 'Honghai', '24773');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Renata', 'Killeen', 'Kenewel', 'Carioca', 'Guarar�', '13895');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Penny', 'Manie', 'Dorbon', 'Nobel', 'Congas', '08274');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Gabie', 'Corradetti', 'Lancett', 'Crownhardt', 'Yihe', '96945');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Liz', 'Barrable', 'Allatt', 'Hollow Ridge', 'Jianguo', '60057');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Darryl', 'Tender', 'Lampkin', 'Porter', 'Holoubkov', '79862');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Nannie', 'Neising', 'Simmons', 'Morning', 'Weifen', '72013');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Shantee', 'Roddick', 'Jewiss', 'Pankratz', 'V�enory', '63360');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Matelda', 'Garraway', 'Trewartha', 'Rusk', 'Caetit�', '72578');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Slade', 'Metschke', 'Cresar', 'Thompson', 'D?browa', '72765');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Gwenny', 'Livesley', 'Prevost', 'Badeau', 'Ferreira do Z�zere', '73402');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Mordy', 'Bukac', 'Stode', 'Norway Maple', 'Diaowei', '82773');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Albie', 'Canacott', 'Parlatt', 'Bunker Hill', 'Tangxing', '10201');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Sawyere', 'Searjeant', 'Simoncini', 'Arkansas', 'Magaozhuang', '19450');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Dede', 'Denison', 'Dearl', 'Waxwing', 'Sihanoukville', '74352');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Pepillo', 'Minto', 'Solomonides', 'Becker', 'Novikovo', '71219');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Nikolia', 'Silversmid', 'Horry', 'Buhler', 'Artashat', '44773');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Tammara', 'Vass', 'Lewisham', 'Huxley', 'Dobryatino', '19359');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Tarrah', 'Parradice', 'Rosenzwig', 'Ridge Oak', 'Sepit', '77404');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Desiree', 'Blockwell', 'Chamberlin', 'Lighthouse Bay', 'Bogorodskoye', '09607');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Lawrence', 'Wasmer', 'Firth', 'Graceland', 'Bibai', '42668');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Sven', 'Digan', 'Canlin', 'Bultman', 'Clarines', '96216');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Noble', 'Leader', 'Farrand', 'Lien', 'General Viamonte', '11945');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Meghann', 'Froud', 'McCloch', 'Petterle', 'Dinjo', '61332');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Sherill', 'Sewley', 'Snadden', 'Burning Wood', 'Pasirmukti', '46073');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Gerti', 'Hadlow', 'Mullan', 'Cherokee', 'Toamasina', '82056');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Kenna', 'Corrington', 'Pardi', 'Carey', 'Nara', '81861');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Sheffy', 'Kenforth', 'Yeiles', 'Pankratz', 'Mar?veh Tappeh', '96730');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Bendick', 'McHenry', 'Tilbey', 'Trailsway', 'Var?na', '85126');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Locke', 'Alvaro', 'Bottby', 'Stone Corner', 'F�dorovskoye', '71532');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Ralina', 'Neenan', 'Manion', 'Schiller', 'Cimrutu', '89412');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Marcelo', 'Phipps', 'Spenton', 'Mifflin', 'Mlalo', '89149');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Kathie', 'Leele', 'Lacroux', 'Truax', 'Chivilcoy', '79055');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Maitilde', 'Pesticcio', 'Schettini', 'Sunbrook', 'Saint-Augustin-de-Desmaures', '88333');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Ardelle', 'O''Keeffe', 'Dufore', 'Michigan', 'Nanping', '71838');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Sandy', 'De Biasi', 'Roper', 'Bowman', 'Baler Baleagung', '34925');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Micheil', 'Burkhill', 'Verring', 'Walton', 'Qindu', '58948');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Jeanelle', 'Lates', 'Rack', 'Dapin', 'Huerta Grande', '73757');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Boot', 'McGreay', 'Heelis', 'Annamark', 'Tahoua', '09050');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Zelda', 'O''Fogarty', 'Kellet', 'Susan', 'Gamay', '37604');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Kata', 'Minty', 'Cirlos', 'Bobwhite', '�Afr?n', '51126');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Dannye', 'Wogden', 'Sacco', 'Northview', 'Lanzhong', '42595');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Garwood', 'Alner', 'Maren', 'Hallows', 'Petropavlovsk', '99356');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Merv', 'Strevens', 'Screaton', 'American Ash', '�guas de Lind�ia', '14242');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Perceval', 'Gilbane', 'Abrahami', 'Karstens', 'Krasnokholm', '57784');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Gustavo', 'Alpine', 'Rosendall', '6th', 'Zhaike', '48719');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Nata', 'Bygate', 'Revening', 'Blaine', 'Banjar Kelodan', '42349');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Neila', 'Guppey', 'Iacomelli', 'Dexter', 'Riach�o das Neves', '86913');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Gwendolin', 'Quirke', 'Eden', 'Ryan', 'Salyan', '38597');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Obadias', 'Stadden', 'Stormouth', 'Upham', 'Gandorhun', '34665');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Elsbeth', 'Gibbs', 'Menpes', 'Commercial', 'Bicas', '83266');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Shirlee', 'Syson', 'Bruhnicke', 'Sloan', 'Guar�', '73678');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Sherri', 'Lange', 'Jiras', 'Reinke', '?ajni?e', '73196');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Christophorus', 'Jerrold', 'Simons', 'Oak', 'Tembongraja', '63265');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Ephrayim', 'Durtnall', 'Nix', 'Knutson', 'Springfield', '39348');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Tammi', 'Rickeard', 'Schohier', 'Walton', 'Vranje', '27151');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Emmanuel', 'Canlin', 'Maccaig', 'Annamark', 'Vyselki', '13997');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Hallie', 'Vanyard', 'Sterte', 'Novick', 'Aipe', '95454');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Ber', 'Fannin', 'Gong', 'Twin Pines', 'Ph� Vang', '63138');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Garald', 'McNern', 'Coote', 'Melvin', 'Nabunturan', '30764');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Babs', 'Ortmann', 'Ambrosio', 'Ridgeway', 'Benito Juarez', '28118');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Gregoire', 'Verbeke', 'Juhruke', 'Maryland', 'Chengxi', '02088');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Chevalier', 'Zannelli', 'Legendre', 'Carioca', 'Bharatpur', '81620');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Lester', 'Harmant', 'Raynes', 'Fordem', 'Kario', '16112');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Clint', 'Laughlan', 'Komorowski', 'Sycamore', 'Goub�tto', '86844');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Clemmy', 'Nuscha', 'Dainter', 'Crescent Oaks', 'Sharm el-Sheikh', '89325');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Bevvy', 'Schoolfield', 'Paye', 'Corry', 'Polepy', '50070');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Rog', 'Siemens', 'Balffye', '8th', 'Kerikeri', '66809');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Burg', 'MacTrustey', 'Leckey', 'Delladonna', 'Lagos da Beira', '62685');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Jobyna', 'Gudgin', 'Buer', 'Del Mar', 'F�rjestaden', '90704');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Darcy', 'Saenz', 'Brockhurst', 'Monterey', 'Liantan', '27726');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Gerri', 'Cowthart', 'Poore', 'Huxley', 'Rozhniv', '71814');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Nicol', 'Lowth', 'Moukes', 'Clarendon', 'Lysekil', '31062');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Sande', 'Fitzharris', 'Bridgement', 'Veith', 'Cabo', '62667');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Goldina', 'McTurley', 'Soaper', 'Ronald Regan', 'Farroupilha', '33487');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Jerrie', 'Coste', 'Banbrook', 'Sugar', 'M?sto', '14967');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Melita', 'Yeudall', 'Linthead', 'Debra', 'Fonte de Ange�o', '15770');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Inga', 'Hallatt', 'Blees', 'Cody', 'Meniko', '68047');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Whitaker', 'Whyborne', 'Breedy', 'Ridgeview', 'Baojia', '55142');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Dominica', 'Bissill', 'Staines', 'Northport', 'Ba�os', '32377');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Kris', 'Newick', 'Fishbourne', 'Dovetail', 'Yuefeng', '75715');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Juana', 'Keble', 'Cragell', 'Talisman', 'Temblador', '48384');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Marcella', 'Liccardi', 'Smurfit', 'Loomis', 'Orlando', '32785');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Tamra', 'Van Merwe', 'Nussen', 'Northridge', 'Th? Tr?n Nguy�n B�nh', '59755');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Rica', 'Bodimeade', 'Scrogges', 'Hayes', 'Ash Shuhad?�', '40492');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Alain', 'Saunders', 'Edsall', 'Spenser', 'Banjar Penyalin', '06596');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Caril', 'Cherrett', 'Castaneda', 'Express', 'El Zulia', '31222');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Gale', 'Durrad', 'Galiero', 'Miller', 'Makarska', '25498');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Al', 'Thunderchief', 'Pennells', 'Green', 'Yasothon', '23550');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Alaster', 'Douthwaite', 'Utteridge', 'Vidon', 'Jiaomingsi', '95960');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Berny', 'Gregore', 'Berzons', 'Carberry', 'Yaroslavskiy', '48772');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Babette', 'Jerred', 'Aitkin', 'Springs', 'Mosetse', '83396');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Edith', 'Gannicleff', 'Parsonage', 'Judy', 'Pergan', '23305');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Shelba', 'Dudlestone', 'Sails', 'John Wall', 'Zouila', '46196');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Clark', 'Mounch', 'Crippin', 'Spaight', 'Naguilian', '12889');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Emyle', 'Bisson', 'Anscott', 'Elgar', 'F�camp', '06097');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Kurt', 'Hares', 'Sidden', 'Linden', 'Donostia-San Sebastian', '69365');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Val', 'Petris', 'Sappell', 'Alpine', 'Bang Bo District', '67026');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Philippine', 'Leete', 'Skures', 'Fuller', 'Nanling', '37245');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Livia', 'Frane', 'Rasher', 'Granby', 'Suchy Las', '15075');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Carola', 'Touzey', 'Gorring', 'Luster', 'Budakovo', '88877');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Darrel', 'Coade', 'Else', 'Lakeland', 'Majalengka', '33297');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Elden', 'Safhill', 'Aleksahkin', 'Haas', 'Bazar-Korgon', '89377');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Beret', 'Mosedall', 'Yetton', 'Aberg', 'Bar�o de S�o Miguel', '36013');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Maye', 'Magovern', 'Denzey', 'Garrison', 'Koumac', '37126');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Rocky', 'Pautard', 'Runchman', 'Merry', 'Granada', '19769');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Cirstoforo', 'Wilcocke', 'Tarbert', 'Debs', 'Laocheng', '97334');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Dorothee', 'Clemens', 'Charlick', 'Sloan', 'Mafang', '11354');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Sibyl', 'Petasch', 'Rhydderch', 'Reindahl', 'Sovetskaya', '23390');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Damaris', 'Temprell', 'Pala', 'Thackeray', 'Bijaepasu', '72710');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Bret', 'Castelijn', 'Hannigane', 'Acker', 'Bianba', '62250');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Darcey', 'Loram', 'Agney', 'Elka', 'Megaloch�rion', '48416');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Inna', 'Rickis', 'Wynrahame', 'Del Mar', 'Imbituba', '40549');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Janaya', 'Sanger', 'Trenouth', 'Jay', 'Pet?vald', '40566');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Benedicta', 'Shrieves', 'Jeandot', 'Moulton', 'Treinta y Tres', '27062');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Cornelia', 'Pobjoy', 'Cosbey', 'Sheridan', 'Sumberpitu', '02370');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Carey', 'Tatum', 'Winders', 'Grasskamp', 'Mazra�at Bayt Jinn', '39951');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Darill', 'Bauduccio', 'Sharpling', 'Riverside', 'Duszniki-Zdr�j', '24778');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Lind', 'Osbaldstone', 'Gerb', 'Huxley', 'Toba', '71807');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Doreen', 'Jobes', 'Joanaud', 'Corscot', 'Igarap�', '06832');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Darda', 'Rowley', 'Weatherill', 'Gulseth', 'Francisco Morato', '29398');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Gordan', 'Gasker', 'Lyles', 'Oneill', 'Studenec', '61134');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Robin', 'Testro', 'Anscott', 'Artisan', 'San Pedro Necta', '73824');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Walden', 'Brew', 'Povall', 'Oak Valley', 'Camiri', '31049');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Elvis', 'Davidzon', 'Brunone', 'Nancy', 'Mpika', '14248');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Auroora', 'Davey', 'Whether', 'Mallory', 'Duancun', '60948');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Danica', 'Kersting', 'Efford', '6th', 'Francisco Villa', '80976');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Billie', 'Papworth', 'Assiratti', 'Lakewood', 'Kuloy', '16386');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Jules', 'Disbrey', 'Reis', '2nd', 'Orlovat', '85574');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Clarinda', 'Mariyushkin', 'Ninotti', 'Red Cloud', 'Bucu Lor', '49985');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Tonie', 'Broadway', 'Irnys', 'Clemons', 'Chaowai', '72774');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Mikaela', 'MacDunlevy', 'Tooley', 'Russell', 'Debar', '02711');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Mab', 'Villa', 'Dhenin', 'Dottie', 'Trairi', '57318');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Purcell', 'Strete', 'Bretland', 'Lakewood', 'Gwangjeok', '73739');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Odelia', 'Gaynes', 'Iowarch', 'Superior', 'Suwaru', '21417');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Monique', 'Treharne', 'Riddlesden', 'Merry', 'Oenunu', '16641');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Abel', 'Beggi', 'Greenhowe', 'Coleman', 'Mirandop�lis', '89805');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Maryrose', 'Cowlam', 'Newtown', 'Sunbrook', 'Shencang', '96566');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Amerigo', 'Redhills', 'Colten', 'Michigan', 'Huilong', '89926');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Goldia', 'Ebdon', 'Milesop', 'Surrey', 'Leksand', '18551');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Britta', 'Gerrets', 'Tradewell', 'Meadow Vale', 'Rustenburg', '52261');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Bertie', 'Shilston', 'Campsall', 'Pepper Wood', 'Enonkoski', '29031');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Clare', 'McCartan', 'Grigori', 'Atwood', 'Taganrog', '68606');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Jory', 'Rillatt', 'Borrowman', 'Straubel', 'Gerelayang', '06133');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Dre', 'Pawnsford', 'Bricham', 'Drewry', 'Chaowai', '58751');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Angelia', 'Robilliard', 'Leonardi', 'Troy', 'Chinandega', '74732');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Milka', 'Ruckledge', 'Ghion', 'Helena', 'Czechowice-Dziedzice', '70326');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Clarabelle', 'Cypler', 'Wiffield', 'Iowa', 'V�gia', '84602');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Tarrance', 'Monketon', 'Smallacombe', 'Anderson', 'Delft', '86262');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Joleen', 'Agglio', 'Stotherfield', 'Valley Edge', 'Baton Rouge', '75527');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Hazlett', 'Bordone', 'Howse', 'Ridgeview', 'Heishui', '19571');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Gilly', 'O''Fallowne', 'Scolli', 'Ilene', 'Varennes', '09054');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Lelia', 'Swetenham', 'Elkins', 'Mesta', 'Cibungur', '70327');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Eliot', 'Molineaux', 'Kinze', 'Sullivan', 'Olenegorsk', '51702');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Dyane', 'Pues', 'Sennett', 'Center', 'Jiangluo', '35752');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Filmore', 'Belison', 'Wedge', 'Donald', 'Privas', '24973');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Leandra', 'Pinckard', 'Christoffels', 'Arkansas', 'Tarq?my?', '81597');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Stevy', 'Dumberell', 'Filyushkin', 'Macpherson', 'Zaliznychne', '15169');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Garvin', 'Classen', 'Whild', 'Northland', 'Pingdu', '54001');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Constantine', 'Bareford', 'Close', 'Shelley', 'Sosnovo-Ozerskoye', '67835');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Karlotte', 'Marzele', 'Sorby', 'Transport', 'K?lia', '65874');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Neil', 'Udall', 'Hickenbottom', 'Riverside', 'Manikchari', '50981');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Malchy', 'Patkin', 'Kull', 'Talmadge', 'Buenaventura', '07706');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Pacorro', 'Rignall', 'Torfin', 'Stoughton', 'S�o Sebasti�o do Pass�', '66729');
-INSERT INTO paciente (nombre, paterno, materno, calle, ciudad, cp) VALUES
-    ('Sergent', 'Currier', 'Elsdon', 'Fieldstone', 'Sanxi', '99967');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Tessy', 'Huggens', 'Evesque', 'Memorial', '9', 'Wangjiahe', '53226');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Colas', 'Bahde', 'Staples', 'Briar Crest', '4', 'Gérakas', '18839');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Eziechiele', 'Sykes', 'Gilardengo', 'Namekagon', '7194', 'Ipirá', '41448');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Andris', 'Semrad', 'Haythornthwaite', 'Pine View', '03', 'Reforma', '40316');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Claudina', 'Audley', 'Loomes', 'Del Sol', '763', 'Aco', '31835');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Reiko', 'Sneath', 'Clubley', 'Ludington', '65556', 'Řečany nad Labem', '45906');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Danell', 'Rove', 'Burles', 'Northport', '30', 'Château-Richer', '92426');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Mariele', 'Hilley', 'Mole', 'Pierstorff', '5787', 'Oslo', '49628');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Emory', 'Beranek', 'Dalziel', 'Ridgeview', '44', 'Laholm', '37504');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Ebeneser', 'Bennion', 'Chifney', 'Mcguire', '154', 'Srono', '45939');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Markos', 'Seagrove', 'Draycott', 'Magdeline', '5', 'Chepo', '77845');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Dorelia', 'Rois', 'Deerness', 'Schiller', '44737', 'Qidu', '12920');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Etienne', 'McIllroy', 'Amey', 'Starling', '431', 'Terentang', '98055');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Anstice', 'Seres', 'Kopisch', 'Morningstar', '67157', 'Capatárida', '54213');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Kipp', 'Yelding', 'Tarpey', 'Delaware', '66', 'Pinhal General', '64586');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Julie', 'Kaines', 'Furniss', 'Tennyson', '05999', 'Leran', '45897');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Genna', 'Chicken', 'Emlyn', 'Roxbury', '1092', 'Skopin', '62486');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Drew', 'Rumbelow', 'Tynnan', 'Annamark', '4930', 'Sundawenang', '01791');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Dillie', 'Insull', 'Wycliffe', 'Comanche', '13', 'Beberon', '93580');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Yetty', 'Lyddy', 'McCloid', 'Rieder', '76813', 'Rungis', '56960');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Claudelle', 'Illes', 'Brugsma', 'Logan', '3', 'Aleksandrovskiy Zavod', '93364');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Curran', 'Isaacs', 'Gorwood', 'Fairview', '94', 'Saint-Rémi', '03966');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Melva', 'Cutmare', 'Waldocke', 'Dorton', '067', 'Longxi', '92823');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Brandyn', 'Pentycross', 'McAnalley', 'Delladonna', '775', 'Konče', '20973');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Elsie', 'Hanratty', 'Lovitt', 'Crest Line', '55266', 'Papringan', '87768');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Stephen', 'Edwin', 'Wigg', 'Schurz', '2', 'Banraeaba Village', '73028');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Vinni', 'Ocheltree', 'Hussey', 'Anhalt', '1771', 'Jinshan', '83003');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Kristyn', 'Walczynski', 'Vasyaev', 'Rutledge', '3227', 'Timmins', '58072');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Albertine', 'Dewsbury', 'Faltin', 'School', '78', 'Oudtshoorn', '46962');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Emlyn', 'Soal', 'Gianotti', 'Monterey', '6', 'Ayna', '82306');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Matty', 'Vedenisov', 'Spohr', 'Orin', '842', 'Huangbei', '90406');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Carmine', 'Andreev', 'Piller', 'Dapin', '08464', 'Hotsk', '97285');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Deni', 'Knok', 'Eliet', 'Mcguire', '918', 'Dazhan', '05293');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Tobye', 'Hefferan', 'Logsdail', 'Lien', '87207', 'Sosnovyy Bor', '95120');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Bartel', 'Fairhurst', 'Reggiani', 'Caliangt', '227', 'Rędziny', '73323');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Rodger', 'Ghelardi', 'Hampton', 'Gale', '128', 'Zhouji', '26542');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Margeaux', 'Phair', 'Clogg', 'Westport', '205', 'Huangshi', '70302');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Dolores', 'Habishaw', 'De la Yglesias', 'Clyde Gallagher', '04503', 'Ymittos', '26318');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Gerti', 'McBeath', 'Mangenot', 'Sage', '5725', 'Laï', '39370');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Maritsa', 'Waleworke', 'Skipton', 'Bonner', '9', 'Patrocínio', '84706');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Lucretia', 'Bordiss', 'Delbergue', 'Brown', '26', 'Wanganui', '23715');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Olympia', 'Alsina', 'Free', 'Golden Leaf', '5', 'Xingzi', '44688');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Cloris', 'Golborn', 'Tresvina', 'Washington', '3600', 'Tosno', '77816');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Odette', 'Arndt', 'O'' Meara', 'Cascade', '748', 'Radom', '74003');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Arnoldo', 'Brackstone', 'Ivshin', 'Main', '6', 'Murygino', '21446');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Bette', 'Dann', 'Druery', 'Sheridan', '16', 'Repentigny', '97382');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Mayne', 'Cordeau', 'Pragnell', 'Carey', '3397', 'Makubetsu', '88093');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Maxie', 'Durand', 'Hansemann', 'Cordelia', '1', 'Ganyan', '95476');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Kyle', 'Maffini', 'Balwin', 'International', '53', 'Osby', '72206');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Jenny', 'McCumesky', 'Enrich', 'Londonderry', '59', 'Nanto-shi', '79666');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Devlen', 'Boutflour', 'Edmondson', 'Hazelcrest', '65', 'Jicomé', '15095');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Vernor', 'Blunkett', 'Fairney', 'Manufacturers', '31', 'Petropavlivka', '12614');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Dareen', 'Bavidge', 'McGonigal', 'Rieder', '4175', 'Kaz', '01001');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Nikkie', 'Lumsdon', 'McGoon', 'Acker', '029', 'Tegalbuleud', '99761');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Chet', 'Alvaro', 'McSaul', 'Riverside', '08292', 'Monkstown', '78910');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Juliane', 'Lewins', 'Wallentin', 'Ronald Regan', '95', 'Acomayo', '88056');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Dewain', 'Jarley', 'Flacknoe', 'Merchant', '1', 'Caluquembe', '96142');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Tyne', 'Salmen', 'Gotling', 'Fulton', '03203', 'Annecy', '02995');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Germayne', 'Murrison', 'Beining', 'Bayside', '291', 'Daogao', '70163');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Cob', 'Lyness', 'Goldes', 'Ridgeview', '9', 'Loma Alta', '27823');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Kyla', 'Sowman', 'Rue', 'Pepper Wood', '3', 'Zamboanga', '24689');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Talya', 'Cranch', 'McKellar', 'Packers', '3029', 'Prupuh', '20910');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Kandy', 'Dhillon', 'Bartoszinski', 'Stone Corner', '0819', 'Lat Lum Kaeo', '82571');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Linoel', 'Rayer', 'Kanzler', 'Artisan', '9835', 'Trollhättan', '05682');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Maure', 'Catteroll', 'Cawdell', 'Mcguire', '9926', 'Villa María', '21374');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Barbabas', 'Bruyns', 'Hartlebury', 'Almo', '9610', 'Kyrylivka', '85020');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Minnnie', 'Collidge', 'Towhey', 'Buena Vista', '585', 'Legionowo', '14055');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Kimmi', 'Mesant', 'MacHoste', 'Graedel', '8', 'Ibagué', '37671');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Araldo', 'Kuhnert', 'Muckian', 'Clarendon', '359', 'Jinfeng', '41599');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Malynda', 'Perford', 'Cristofor', 'Troy', '221', 'Dalupirip', '35047');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Stacy', 'Warmington', 'Carney', 'Texas', '18947', 'Obolo-Eke (1)', '04650');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Hilliard', 'McGorman', 'Lowcock', 'Cordelia', '36717', 'Siemiątkowo', '03694');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Alexandrina', 'Rickarsey', 'Bummfrey', 'Hazelcrest', '837', 'Mansilingan', '93320');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Phil', 'McGowran', 'Mishow', 'Shoshone', '897', 'Nijmegen', '74196');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Rex', 'Darrach', 'Eynon', 'Sutteridge', '0545', 'Obsza', '67164');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Martica', 'Blakeway', 'Kender', 'Rieder', '7', 'Dengteke', '11716');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Lavena', 'Checchi', 'Abercromby', 'Tomscot', '28559', 'Baturaja', '15716');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Jeanie', 'Beamson', 'Capaldo', 'Norway Maple', '44997', 'Nkayi', '04877');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Garrek', 'Loren', 'Gopsell', 'Brickson Park', '061', 'Goyty', '62685');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Reggis', 'Bilby', 'Cornu', 'Monument', '3', 'Zhaigang', '10238');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Nealson', 'Stovine', 'Blaxton', 'Heath', '8101', 'Uppsala', '02731');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Radcliffe', 'Hannum', 'Edmund', 'Prairieview', '867', 'Nurlat', '55209');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Olwen', 'Goldfinch', 'Medling', 'Del Mar', '51715', 'Basel', '87814');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Matthias', 'Merfin', 'Mathys', 'Lindbergh', '6285', 'Mixco', '08733');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Darby', 'Troker', 'Bucktrout', 'Anniversary', '3', 'Chambéry', '46768');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Zitella', 'MacCahey', 'O''Fogarty', 'Banding', '42309', 'Newport News', '10564');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Adi', 'Schimoni', 'Shyres', 'Dawn', '0722', 'Lagunas', '45158');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Caritta', 'Popescu', 'Divina', 'Pepper Wood', '6', 'Norakert', '53716');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Brittan', 'Challin', 'Stryde', 'Cody', '07891', 'Xiaoxi', '07865');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Ikey', 'Ternott', 'Hopkins', 'Vahlen', '99', 'Желино', '76766');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Butch', 'Lawley', 'Asplin', 'Parkside', '6', 'Rāmganj', '83274');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Kaylil', 'Kettle', 'Falkous', 'Welch', '1', 'Shuangxi', '55607');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Salomo', 'McGirl', 'MacMorland', 'Bay', '2', 'Jabon', '60023');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Marietta', 'Eliot', 'Bennoe', 'Melby', '35', 'Ochakiv', '77891');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Laurianne', 'Kubanek', 'Coulsen', 'Roxbury', '1992', 'Ddmashen', '34973');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Caspar', 'Leedes', 'Pockey', 'Shoshone', '9', 'Changtian', '40624');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Therine', 'Ragbourne', 'Kempton', 'Kinsman', '483', 'Kongjiafang', '05042');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Natalina', 'Heild', 'Mussotti', 'Burning Wood', '7902', 'Krzczonów', '03848');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Nat', 'Lipsett', 'Bartlomieczak', 'Corry', '905', 'Tutayev', '26156');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Alleen', 'Colledge', 'Blamey', 'Butterfield', '5037', 'Zhongcheng', '20894');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Pennie', 'Carabine', 'Spaughton', 'Ludington', '696', 'Kota Bharu', '19899');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Carlota', 'Gietz', 'Hamp', 'Shasta', '5', 'Tampocon', '39510');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Jessee', 'Meneyer', 'Brabyn', 'Transport', '66', 'La Esperanza', '22101');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Gare', 'Rowdell', 'Heers', 'Macpherson', '33264', 'Roissy Charles-de-Gaulle', '11903');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Brunhilde', 'Pusey', 'Guerreau', 'Fuller', '72643', 'Hekou', '25744');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Lelah', 'Racher', 'Dutnell', 'Iowa', '755', 'Ifanadiana', '79044');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Francisca', 'Brumhead', 'Lunney', 'Fallview', '78', 'Herne', '87574');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Jess', 'felip', 'Hallahan', 'Farragut', '80369', 'Três de Maio', '14386');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Nicolina', 'Vardey', 'Heinreich', 'Hoepker', '8067', 'Saihan Tal', '12913');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Tabitha', 'Feldbaum', 'Bardwall', 'Hoffman', '29489', 'Emiliano Zapata', '97915');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Kari', 'Roskrug', 'Roddell', 'Forest Dale', '8212', 'Candoni', '62672');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Sax', 'Goolding', 'Gaine of England', 'Sheridan', '6048', 'Trubchevsk', '58155');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Gorden', 'Julyan', 'Bourthouloume', 'Orin', '41', 'Otradnaya', '10536');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Roderick', 'Bridgnell', 'Leborgne', 'Eliot', '947', 'Yongfa', '38748');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Lola', 'Kenafaque', 'Bon', 'Anderson', '025', 'Västerås', '48930');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Emmalynn', 'Gainsborough', 'Loyndon', 'Delaware', '6', 'Waco', '81752');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Astrid', 'Bernette', 'Mott', 'Utah', '616', 'Huitong', '95268');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Timmy', 'McCloid', 'Vispo', 'Oriole', '8', 'Tulsa', '27420');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Denny', 'Cauldfield', 'Barday', 'Anniversary', '1199', 'Raczki', '20579');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Meryl', 'Kinny', 'Dulwich', 'Vernon', '5213', 'San Antonio Aguas Calientes', '10403');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Charo', 'Demangel', 'Solly', 'Laurel', '6888', 'Novovarshavka', '29825');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Viole', 'Fear', 'Zmitrichenko', 'Elka', '11126', 'Suan Luang', '41844');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Abbe', 'Gawne', 'Courteney', 'Acker', '013', 'El Hajeb', '90303');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Letti', 'Filippozzi', 'Weadick', 'Cherokee', '57', 'Shazhuang', '29586');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Seward', 'Calltone', 'Bermingham', 'Schurz', '59523', 'Dalu', '11734');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Susy', 'Flarity', 'Vaughton', 'Oxford', '7', 'Fredrikstad', '27294');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Davide', 'Shorto', 'Meier', 'Goodland', '67542', 'Santiago de Subrrifana', '15857');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Osmond', 'Beldham', 'Willishire', 'Charing Cross', '994', 'Mnich', '68623');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Sigismondo', 'Jordine', 'Emlyn', 'Blackbird', '8234', 'Breda', '04476');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Barr', 'Hansel', 'Tuison', 'Barnett', '99', 'Tarouca', '80403');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Korry', 'Marchello', 'Head', 'Namekagon', '4092', 'Bangbayang Kaler', '17211');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Renie', 'Webberley', 'Menat', 'Huxley', '22393', 'Kasongo', '42319');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Levey', 'Bickerstasse', 'Runnett', 'Village', '58373', 'Guozhen', '84956');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Tammy', 'Limb', 'Barracks', 'Eggendart', '366', 'Washington', '22950');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Marillin', 'Aitken', 'Philpin', 'Susan', '39818', 'Wonorejo Dua', '35779');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Kenny', 'Cotta', 'Keirle', 'Jenna', '4', 'Jinji', '52519');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Sella', 'McGill', 'Sink', 'Fairview', '1779', 'Bicos', '00893');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Corrinne', 'Preto', 'Turbefield', 'Spenser', '32118', 'Budenovetc', '37470');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Chantalle', 'Wilcott', 'Hane', 'Gulseth', '6618', 'Cigintung', '43693');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Moll', 'Moorrud', 'Roscoe', 'Comanche', '7', 'Phan Thong', '57028');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Lari', 'Freddi', 'Zanotti', 'Acker', '3', 'Puńsk', '48873');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Blair', 'McNickle', 'Greenhead', 'Gulseth', '29180', 'Banī Suhaylā', '13229');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Michele', 'Legh', 'Salvati', 'Burrows', '3358', 'Voiron', '22531');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Vilhelmina', 'Pashba', 'Reddel', 'Magdeline', '9470', 'Curitibanos', '93188');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Benton', 'Litzmann', 'Jukes', 'Sherman', '3535', 'Mazhonghe', '15083');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Silvain', 'Evequot', 'Boneham', 'Hintze', '603', 'San Antonio', '12731');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Dimitry', 'Libbe', 'Aloshikin', 'Miller', '95474', 'Bralin', '54746');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Wang', 'Tour', 'Davioud', 'Scoville', '196', 'Tibillo', '11669');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Magdalena', 'Lathom', 'Jakeman', 'Fuller', '266', 'Omaha', '52995');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Toby', 'Raine', 'Mattsson', 'Derek', '091', 'Wang Nam Yen', '22412');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Nelly', 'McNerlin', 'Windross', 'Hudson', '514', 'Las Vegas', '35222');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Way', 'Sich', 'Markushkin', 'Daystar', '2674', 'Paracuru', '51124');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Zoe', 'MacColgan', 'Polini', 'Delladonna', '47', 'Camatagua', '03299');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Val', 'Hessing', 'Crosfeld', 'Vidon', '6', 'Pereiro', '68041');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Thorny', 'Sweynson', 'Gillbey', 'Nobel', '10', 'Kemiri Daya', '94298');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Zak', 'Gascone', 'Sparke', 'Meadow Valley', '531', 'Novo Hamburgo', '92074');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Phelia', 'Triner', 'Dillingstone', 'Transport', '3', 'Souto da Costa', '79603');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Virge', 'Wythe', 'Culshew', 'Westridge', '92', 'Emiliano Zapata', '11841');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Linoel', 'Heaton', 'Crepel', 'Macpherson', '4', 'Valvedditturai', '74344');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Zelma', 'Runnicles', 'Goosnell', 'Superior', '56797', 'Zhongfeng', '51004');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Noelyn', 'Ince', 'Please', 'Jana', '34845', 'Shijiang', '54398');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Dare', 'Pennell', 'Edgeworth', 'Pearson', '2', 'Shibukawa', '20990');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Jerrylee', 'Seamans', 'Merton', 'Pawling', '6494', 'Bodzentyn', '50424');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Denys', 'Medendorp', 'Insole', 'Hazelcrest', '91', 'Corbeil-Essonnes', '14979');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Karmen', 'Child', 'Newarte', 'Kinsman', '018', 'At Tāj', '88365');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Arel', 'Lemerle', 'Trotter', 'Pankratz', '15322', 'Siteía', '90978');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Felisha', 'Kaser', 'Daburn', 'South', '52832', 'Hastings', '50665');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Baron', 'Slucock', 'Harriot', 'Annamark', '8039', 'Thị Trấn Lâm', '00963');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Anjanette', 'Scarlon', 'Brodway', 'Northwestern', '9710', 'Masma', '10160');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Zorine', 'Bilborough', 'Jovasevic', 'Declaration', '25534', 'Zhifudao', '10064');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Henri', 'Faulder', 'Margerison', 'Kings', '7325', 'Maying', '13438');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Noemi', 'Dolden', 'Fasset', 'Katie', '78', 'Petrijevci', '45500');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Audrie', 'Hessentaler', 'Broadey', 'Westend', '6103', 'Road Town', '09659');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Marni', 'Butcher', 'Perrone', 'Village Green', '25', 'Tyresö', '50316');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Durward', 'Doylend', 'Simeons', 'Laurel', '63333', 'L''Assomption', '57738');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Dawn', 'Richin', 'De Cleyne', 'Weeping Birch', '9247', 'Červené Pečky', '73140');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Joshua', 'Nutbeem', 'Alton', 'Sheridan', '51', 'Jiangjiazui', '42558');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Casey', 'Learoyd', 'Rowlands', 'Burning Wood', '63', 'Hanban', '82464');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Georgeanna', 'Denyakin', 'Fuster', 'Sugar', '552', 'Benger', '89802');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Brock', 'Skentelbury', 'McMackin', 'Gateway', '8619', 'Khabarovsk', '62623');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Kingston', 'Cassin', 'Jurkowski', 'Russell', '20', 'San Luis del Palmar', '45416');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Granville', 'Rehme', 'Origan', 'Melrose', '3', 'Rancagadog', '94390');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Korie', 'Bryer', 'Rehor', 'Charing Cross', '1', 'Samuhú', '07209');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Nessie', 'Sodo', 'Doey', 'Shoshone', '0561', 'Kyaukse', '50518');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Aaren', 'Balm', 'McGettigan', '6th', '72048', 'Guangping', '35307');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Francklin', 'Cinelli', 'Breadmore', 'Vera', '11', 'Belén de Umbría', '62675');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Jaye', 'Burel', 'Von Welden', 'Sullivan', '13', 'Sokol’skoye', '92467');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Shirley', 'Westoff', 'Deveral', 'Kedzie', '1', 'Siasi', '70137');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Pegeen', 'Stuer', 'Runsey', 'Ridgeway', '1936', 'Banhā', '75805');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Carma', 'Dunbabin', 'Paolicchi', 'Warbler', '9', 'Ochobo', '26337');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Hope', 'Kubalek', 'Pittwood', 'Briar Crest', '8106', 'Qŭrghonteppa', '38705');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Terri-jo', 'Gummary', 'Heustace', 'Warner', '8777', 'Naranjal', '90574');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Lorene', 'Stammer', 'Cough', 'Starling', '0', 'Yongfeng', '32209');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Joan', 'Heymann', 'Greiser', 'New Castle', '4967', 'Sigaboy', '23830');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Ara', 'Blint', 'Godball', 'Shopko', '83994', 'Pasto', '22876');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Rudolph', 'Crosier', 'Wardall', 'Briar Crest', '584', 'Bashtanka', '70622');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Fred', 'Ballintime', 'Kloska', 'Declaration', '9', 'Warmare', '37727');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Jaymie', 'Lomath', 'Clooney', 'Corben', '6837', 'Goubangzi', '57987');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Abby', 'Antunez', 'Viney', 'Kedzie', '5133', 'Mulan', '85936');
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
+('Sabina', 'Ajam', 'Hugnot', 'International', '14649', 'Al Qābil', '31737');
     
 -- Paciente atendido por todos
-INSERT INTO paciente (nombre, paterno, materno, calle, num, ciudad, cp) VALUES
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES
     ('Gerardo', 'Uriel', 'Aviles', 'Insurgentes', 'S/N', 'CDMX', '11000');
     
 -- Cincuenta ingresos

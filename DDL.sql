@@ -1,6 +1,6 @@
--- ImplementaciÛn de la traducciÛn del esquema relacional
+-- Implementaci√≥n de la traducci√≥n del esquema relacional
 
--- mÈdico
+-- m√©dico
 CREATE TABLE medico (
     id_medico NUMBER(10) GENERATED ALWAYS AS IDENTITY,
     nombre VARCHAR(40) NOT NULL,
@@ -17,8 +17,8 @@ CREATE TABLE medico (
         ADD CONSTRAINT pk_medico
         PRIMARY KEY (id_medico);
     ALTER TABLE medico  
-    -- Llave for·nea desde el id_medico, hay que corregir el diagrama
-    -- MÈdico puede no tener supervisor.
+    -- Llave for√°nea desde el id_medico, hay que corregir el diagrama
+    -- M√©dico puede no tener supervisor.
         ADD CONSTRAINT fk_medico_sup
         FOREIGN KEY (id_supervisor)
         REFERENCES medico(id_medico)
@@ -31,7 +31,7 @@ CREATE TABLE paciente (
     paterno VARCHAR(40) NOT NULL,
     materno VARCHAR(40),
     calle   VARCHAR(40) NOT NULL,
-    num VARCHAR(10),
+    numero VARCHAR(10),
     ciudad VARCHAR(50) NOT NULL,
     cp  VARCHAR(6) NOT NULL
 );
@@ -62,15 +62,15 @@ CREATE TABLE tener (
         REFERENCES especialidad(id_especialidad);
 -- ON DELETE RESTRICT: no permitir borrar especialidades 
 
--- Si se borra un mÈdico, se borra su historial de especialidades      
+-- Si se borra un m√©dico, se borra su historial de especialidades      
     ALTER TABLE tener  
         ADD CONSTRAINT fk_id_medico
         FOREIGN KEY (id_medico)
         REFERENCES medico(id_medico)
         ON DELETE CASCADE;
         
-    --No estoy seguro, cÛmo manejamos esto?
-    -- Es una relaciÛn, no necesita explÌcitamente llave primaria
+    --No estoy seguro, c√≥mo manejamos esto?
+    -- Es una relaci√≥n, no necesita expl√≠citamente llave primaria
     --ALTER TABLE tener 
     --    ADD CONSTRAINT pk_tener
     --    PRIMARY KEY (id_medico, id_especialidad);
@@ -85,14 +85,14 @@ CREATE TABLE ingresar (
     fecha_ingreso DATE DEFAULT CURRENT_DATE
 );
 
--- Conservar la informaciÛn de registros siempre
+-- Conservar la informaci√≥n de registros siempre
     ALTER TABLE ingresar 
         ADD CONSTRAINT fk_id_medico_ing
         FOREIGN KEY (id_medico)
         REFERENCES medico(id_medico)
         ON DELETE SET NULL;
 
--- Conservar la informaciÛn de registros siempre    
+-- Conservar la informaci√≥n de registros siempre    
     ALTER TABLE ingresar 
         ADD CONSTRAINT fk_id_paciente_ing
         FOREIGN KEY (id_paciente)
@@ -107,18 +107,18 @@ CREATE TABLE ingresar (
 CREATE TABLE consultar (
     id_medico NUMBER(10),
     id_paciente NUMBER(10),
-    consultorio VARCHAR(6), --Supongo que serÌan cosas como 11-A Û 102 y asÌ
+    consultorio VARCHAR(6), --Supongo que ser√≠an cosas como 11-A √≥ 102 y as√≠
     num_consulta NUMBER(10) GENERATED ALWAYS AS IDENTITY,
-    fecha_consulta DATE DEFAULT CURRENT_DATE --Vital para expediente mÈdico?
+    fecha_consulta DATE DEFAULT CURRENT_DATE --Vital para expediente m√©dico?
 );
--- Conservar la informaciÛn de registros siempre
+-- Conservar la informaci√≥n de registros siempre
     ALTER TABLE consultar 
         ADD CONSTRAINT fk_id_medico_cons
         FOREIGN KEY (id_medico)
         REFERENCES medico(id_medico)
         ON DELETE SET NULL;
 
--- Conservar la informaciÛn de registros siempre
+-- Conservar la informaci√≥n de registros siempre
     ALTER TABLE consultar 
         ADD CONSTRAINT fk_id_paciente_con
         FOREIGN KEY (id_paciente)
