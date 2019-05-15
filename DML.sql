@@ -42,11 +42,12 @@ FROM (SELECT id_medico
 -- ========================================================================== --
 --  d.Información de los pacientes que ingresaron en el cuarto trimestre de un año que tu elijas y médico que les fue asignado.
 --Solución.
-SELECT id_paciente, paciente.nombre, paciente.paterno, paciente.materno, medico.nombre, medico.paterno
-FROM (SELECT id_paciente
-      FROM consultar
-      WHERE TO_CHAR(fecha_ingreso, 'Q')= 4 and TO_CHAR(fecha_ingreso) = 2000) NATURAL JOIN  ingresar 
-      NATURAL JOIN medico NATURAL JOIN paciente;
+SELECT id_paciente, paciente.nombre, paciente.paterno , paciente.materno, paciente.calle, 
+       paciente.num, paciente.ciudad, medico.id_medico, medico.nombre, medico.paterno
+FROM (SELECT id_paciente, id_medico
+      FROM ingresar
+      WHERE TO_CHAR(fecha_ingreso, 'Q')= 4 AND TO_CHAR(fecha_ingreso, 'YYYY') = 2012) b NATURAL JOIN paciente  
+      JOIN medico ON medico.id_medico = b.id_medico; 
 -- ========================================================================== --
 
 
@@ -54,22 +55,39 @@ FROM (SELECT id_paciente
 --  e.Información de los médicos que han sido pacientes, mostrar también el nombre completo del médico 
 --    que los atendió y fecha de la consulta.
 --Solución.
-
-(SELECT medico.id_medico, paciente.id_paciente
-FROM paciente JOIN medico
-ON medico.nombre = paciente.nombre and medico.paterno = paciente.paterno and medico.materno = paciente.materno);
+SELECT  paciente.id_paciente, paciente.nombre, paciente.paterno , paciente.materno, paciente.calle, 
+       paciente.numero, paciente.ciudad, medico.id_medico, medico.nombre, medico.paterno
+FROM (SELECT id_medico, id_paciente
+     FROM(SELECT id_paciente
+     FROM (paciente JOIN medico
+     ON medico.nombre = paciente.nombre 
+     AND medico.paterno = paciente.paterno 
+     AND medico.materno = paciente.materno))
+    NATURAL JOIN consultar) b JOIN medico ON b.id_medico = medico.id_medico
+     JOIN paciente ON paciente.id_paciente = b.id_paciente; 
 -- ========================================================================== --
 
 
 -- ========================================================================== --
 --  f.Toda la información de los pacientes que no han recibido consulta.
 --Solución.
+(SELECT *
+FROM paciente) minus
+(SELECT * 
+FROM (SELECT DISTINCT (id_paciente)
+FROM consultar) NATURAL JOIN paciente);          
 -- ========================================================================== --
 
 
 -- ========================================================================== --
 --  g.Pacientes que han tomado consulta en cada uno de los consultorios del hospital.
 --SoluciÃ³n.
+SELECT id_paciente
+FROM( SELECT id_paciente, COUNT(consultorio) AS n_consultorios
+      FROM paciente NATURAL JOIN consultar
+      GROUP BY id_paciente)
+WHERE n_consultorios = (SELECT COUNT (DISTINCT (consultorio)) AS num_consultorios
+                        FROM consultar);          
 -- ========================================================================== --
 
 
@@ -229,6 +247,25 @@ SELECT *
 -- ========================================================================== --
 --  t.Pacientes que haya tenido el mismo nÃºmero de ingresos y de consultas al hospital.
 --SoluciÃ³n.
+SELECT *
+FROM ( SELECT id_paciente, visitas
+       FROM ((SELECT id_paciente, COUNT(num_ingreso) AS visitas
+              FROM ingresar
+              GROUP BY id_paciente) INTERSECT
+              (SELECT id_paciente, COUNT(num_consulta) AS visitas
+               FROM consultar
+               GROUP BY id_paciente))) NATURAL JOIN paciente;
+
+--solución2.
+SELECT *
+FROM (SELECT *
+      FROM(SELECT id_paciente, COUNT(num_ingreso) AS visitas
+           FROM ingresar
+           GROUP BY id_paciente) NATURAL JOIN
+          (SELECT id_paciente, COUNT(num_consulta) AS visitas
+           FROM consultar
+           GROUP BY id_paciente)
+       GROUP BY id_paciente, visitas) NATURAL JOIN paciente;                                     
 -- ========================================================================== --
 
 
