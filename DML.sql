@@ -43,7 +43,7 @@ FROM (SELECT id_medico
 --  d.Información de los pacientes que ingresaron en el cuarto trimestre de un año que tu elijas y médico que les fue asignado.
 --Solución.
 SELECT id_paciente, paciente.nombre, paciente.paterno , paciente.materno, paciente.calle, 
-       paciente.num, paciente.ciudad, medico.id_medico, medico.nombre, medico.paterno
+       paciente.num, paciente.ciudad, medico.id_medico, medico.nombre, medico.paterno, medico.materno
 FROM (SELECT id_paciente, id_medico
       FROM ingresar
       WHERE TO_CHAR(fecha_ingreso, 'Q')= 4 AND TO_CHAR(fecha_ingreso, 'YYYY') = 2012) b NATURAL JOIN paciente  
@@ -56,7 +56,7 @@ FROM (SELECT id_paciente, id_medico
 --    que los atendió y fecha de la consulta.
 --Solución.
 SELECT  paciente.id_paciente, paciente.nombre, paciente.paterno , paciente.materno, paciente.calle, 
-       paciente.numero, paciente.ciudad, medico.id_medico, medico.nombre, medico.paterno
+       paciente.numero, paciente.ciudad, medico.id_medico, medico.nombre, medico.paterno, medico.materno
 FROM (SELECT id_medico, id_paciente
      FROM(SELECT id_paciente
      FROM (paciente JOIN medico
