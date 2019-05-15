@@ -619,6 +619,12 @@ INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUE
 INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES 
 ('Sabina', 'Ajam', 'Hugnot', 'International', '14649', 'Al Qābil', '31737');
     
+-- Algunos médico que también son doctores
+INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp)
+    SELECT nombre, paterno, materno, calle, numero, ciudad, cp
+        FROM medico
+        WHERE id_medico <= 6;
+
 -- Paciente atendido por todos
 INSERT INTO paciente (nombre, paterno, materno, calle, numero, ciudad, cp) VALUES
     ('Gerardo', 'Uriel', 'Aviles', 'Insurgentes', 'S/N', 'CDMX', '11000');
