@@ -732,106 +732,106 @@ INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) V
     (15, 146, '327', 'Y-969', TO_DATE('2011-05-13 02:07:49', 'yyyy-mm-dd hh24:mi:ss'));
     
 -- Cincuenta consultas
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (27, 100, 'F-263', TO_DATE('2011-02-12 20:30:03', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (29, 126, 'U-991', TO_DATE('2015-04-02 08:04:45', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (32, 87, 'G-809', TO_DATE('2014-05-29 04:12:56', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (24, 13, 'B-406', TO_DATE('2012-09-13 15:59:57', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (30, 88, 'W-274', TO_DATE('2019-01-24 09:31:45', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (38, 129, 'N-672', TO_DATE('2013-03-26 02:41:50', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (46, 1, 'P-703', TO_DATE('2013-05-24 19:02:40', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (39, 45, 'X-065', TO_DATE('2015-06-22 19:52:57', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (33, 86, 'U-393', TO_DATE('2010-05-11 19:03:45', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (34, 163, 'O-210', TO_DATE('2015-05-31 18:56:41', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (40, 159, 'V-277', TO_DATE('2015-09-16 04:07:41', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (34, 123, 'S-227', TO_DATE('2016-03-08 16:02:12', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (37, 51, 'O-894', TO_DATE('2012-05-09 11:14:49', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (32, 167, 'F-030', TO_DATE('2018-09-16 20:15:11', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (42, 88, 'T-334', TO_DATE('2011-05-08 23:40:29', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (43, 182, 'Z-806', TO_DATE('2018-12-15 20:17:39', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (25, 92, 'Q-798', TO_DATE('2013-07-21 10:34:35', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (18, 132, 'S-184', TO_DATE('2012-06-01 16:45:22', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (27, 181, 'P-605', TO_DATE('2016-08-09 11:29:45', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (1, 102, 'V-733', TO_DATE('2010-06-15 21:27:38', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (20, 119, 'V-061', TO_DATE('2016-03-01 21:57:38', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (25, 135, 'F-643', TO_DATE('2014-05-08 09:46:22', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (6, 175, 'F-747', TO_DATE('2011-05-19 01:58:50', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (44, 152, 'Z-135', TO_DATE('2017-04-08 00:52:30', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (31, 20, 'F-242', TO_DATE('2012-04-21 19:33:06', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (44, 103, 'I-701', TO_DATE('2011-07-16 07:48:27', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (1, 52, 'Y-568', TO_DATE('2018-09-30 20:43:17', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (17, 85, 'R-600', TO_DATE('2013-12-16 17:58:32', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (36, 26, 'N-799', TO_DATE('2012-03-04 20:01:43', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (39, 79, 'U-179', TO_DATE('2012-03-01 22:06:54', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (7, 27, 'L-372', TO_DATE('2017-12-30 10:22:35', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (19, 27, 'D-730', TO_DATE('2017-01-25 07:17:05', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (2, 128, 'P-291', TO_DATE('2011-04-16 22:52:21', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (29, 126, 'X-094', TO_DATE('2015-10-28 23:26:51', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (11, 37, 'T-053', TO_DATE('2014-10-11 05:59:58', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (42, 153, 'E-853', TO_DATE('2013-03-12 03:09:21', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (19, 19, 'A-406', TO_DATE('2017-07-15 00:43:26', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (29, 31, 'U-608', TO_DATE('2013-12-14 11:10:55', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (14, 122, 'X-337', TO_DATE('2011-02-23 03:54:41', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (5, 111, 'N-407', TO_DATE('2011-12-28 14:26:50', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (47, 72, 'S-694', TO_DATE('2017-01-03 23:59:44', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (17, 47, 'Y-068', TO_DATE('2011-03-08 11:53:59', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (13, 106, 'F-717', TO_DATE('2014-08-04 10:55:59', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (46, 94, 'T-024', TO_DATE('2013-09-18 07:03:34', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (50, 66, 'V-701', TO_DATE('2017-06-19 04:15:17', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (28, 23, 'Q-616', TO_DATE('2017-09-14 23:21:18', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (46, 43, 'T-350', TO_DATE('2017-01-13 11:20:48', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (25, 8, 'W-128', TO_DATE('2015-01-08 02:39:31', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (39, 94, 'F-879', TO_DATE('2014-04-24 15:45:12', 'yyyy-mm-dd hh24:mi:ss'));
-INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES
-    (20, 69, 'K-220', TO_DATE('2012-07-14 04:20:33', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(40, 203, 'C-100', TO_DATE('2011-10-04 00:45:58', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(42, 204, 'A-100', TO_DATE('2019-02-27 13:07:25', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(7, 160, 'B-100', TO_DATE('2014-09-13 17:33:21', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(43, 205, 'C-100', TO_DATE('2013-08-23 05:11:39', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(21, 15, 'B-100', TO_DATE('2012-02-29 07:26:57', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(37, 174, 'A-200', TO_DATE('2012-07-10 05:39:41', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(10, 175, 'B-100', TO_DATE('2018-12-22 02:14:02', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(2, 148, 'C-100', TO_DATE('2013-12-25 18:23:51', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(43, 19, 'A-200', TO_DATE('2014-07-30 08:08:58', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(19, 47, 'A-200', TO_DATE('2011-09-21 11:40:34', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(44, 68, 'C-100', TO_DATE('2014-03-31 17:47:56', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(25, 23, 'B-100', TO_DATE('2014-04-30 16:42:29', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(9, 32, 'A-200', TO_DATE('2010-12-27 22:55:20', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(5, 193, 'B-200', TO_DATE('2012-07-16 07:38:24', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(49, 106, 'B-200', TO_DATE('2019-01-22 13:07:30', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(49, 129, 'C-100', TO_DATE('2010-10-31 10:05:35', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(23, 98, 'A-200', TO_DATE('2016-02-11 18:09:27', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(33, 154, 'B-200', TO_DATE('2018-10-01 18:22:25', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(20, 19, 'C-100', TO_DATE('2013-08-01 02:37:24', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(9, 160, 'B-200', TO_DATE('2019-01-18 05:11:45', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(8, 185, 'C-100', TO_DATE('2018-05-06 11:57:47', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(13, 195, 'B-100', TO_DATE('2015-07-22 09:18:22', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(40, 65, 'C-100', TO_DATE('2011-02-10 06:54:59', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(39, 147, 'C-100', TO_DATE('2015-11-30 18:04:30', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(3, 5, 'B-100', TO_DATE('2010-08-19 00:51:56', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(1, 93, 'C-100', TO_DATE('2018-08-09 16:58:58', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(1, 122, 'A-200', TO_DATE('2013-02-05 22:40:32', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(19, 166, 'C-100', TO_DATE('2017-07-31 18:49:59', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(45, 153, 'C-100', TO_DATE('2010-11-25 04:25:38', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(5, 150, 'A-100', TO_DATE('2019-01-02 23:54:05', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(37, 66, 'A-200', TO_DATE('2011-08-13 02:47:10', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(12, 182, 'B-100', TO_DATE('2011-12-19 03:46:59', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(17, 143, 'B-200', TO_DATE('2010-07-02 07:41:12', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(14, 69, 'A-200', TO_DATE('2015-09-14 10:15:47', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(11, 48, 'B-100', TO_DATE('2014-07-31 09:47:04', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(4, 9, 'B-200', TO_DATE('2017-05-12 14:24:01', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(20, 59, 'A-100', TO_DATE('2017-01-18 18:23:47', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(26, 54, 'A-200', TO_DATE('2014-10-07 15:19:27', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(7, 81, 'C-100', TO_DATE('2017-11-20 23:13:20', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(34, 51, 'A-200', TO_DATE('2015-02-02 06:55:12', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(47, 96, 'A-200', TO_DATE('2016-10-24 16:53:49', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(45, 21, 'B-100', TO_DATE('2015-04-23 00:48:59', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(28, 39, 'A-200', TO_DATE('2012-08-17 15:52:45', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(37, 160, 'A-100', TO_DATE('2015-10-01 14:50:21', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(26, 57, 'B-100', TO_DATE('2014-01-08 00:52:36', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(23, 196, 'C-100', TO_DATE('2014-06-10 10:38:24', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(30, 107, 'A-100', TO_DATE('2013-12-18 19:01:03', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(6, 107, 'B-200', TO_DATE('2015-11-01 16:58:09', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(9, 93, 'C-100', TO_DATE('2018-04-11 14:41:15', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(21, 62, 'B-100', TO_DATE('2010-06-13 00:31:42', 'yyyy-mm-dd hh24:mi:ss'));
     
 -- Ingresos del paciente atendido por todos
 INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
