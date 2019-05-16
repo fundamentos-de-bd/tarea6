@@ -937,8 +937,8 @@ INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) V
                                   
 --Ingresos para la consulta 'o' (ingresos en los últimos 7 dias)
 INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
-(1, 201, '002', 'P-212', TO_DATE('2019-05-15 11:11:17', 'yyyy-mm-dd hh24:mi:ss'));
+(1, 207, '002', 'P-212', TO_DATE('2019-05-15 11:11:17', 'yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
-(2, 201, '001', 'P-212', TO_DATE('2019-05-15 11:11:52', 'yyyy-mm-dd hh24:mi:ss'));
+(2, 207, '001', 'P-212', TO_DATE('2019-05-15 11:11:52', 'yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
-(3, 201, '003', 'P-212', TO_DATE('2019-05-15 11:11:43', 'yyyy-mm-dd hh24:mi:ss'));
+(3, 207, '003', 'P-212', TO_DATE('2019-05-15 11:11:43', 'yyyy-mm-dd hh24:mi:ss'));
