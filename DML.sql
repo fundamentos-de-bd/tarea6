@@ -20,8 +20,8 @@ GROUP BY id_medico, año, trimestre;
 -- ========================================================================== --
 --  c.Nombre del mÃ©dico y especialidades que tiene, de aquel que haya impartido mÃ¡s consultas.
 --SoluciÃ³n.
-SELECT nombre, paterno, materno, nombre_especialidad
-FROM (SELECT id_medico
+SELECT nombre, paterno, materno, nombre_especialidad, Numero_de_consultas
+FROM (SELECT id_medico, Numero_de_consultas
       FROM(SELECT id_medico, COUNT(num_consulta) AS Numero_de_consultas
            FROM consultar
            GROUP BY id_medico)
