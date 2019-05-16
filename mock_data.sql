@@ -832,6 +832,14 @@ INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALU
 (9, 93, 'C-100', TO_DATE('2018-04-11 14:41:15', 'yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
 (21, 62, 'B-100', TO_DATE('2010-06-13 00:31:42', 'yyyy-mm-dd hh24:mi:ss'));
+                          
+--Inserciones a consultar para 'g' y 'o'
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(7, 107, 'A-200', TO_DATE('2019-01-15 11:11:17', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(9, 107, 'B-100', TO_DATE('2019-02-15 11:11:52', 'yyyy-mm-dd hh24:mi:ss'));
+INSERT INTO consultar (id_medico, id_paciente, consultorio, fecha_consulta) VALUES 
+(8, 107, 'C-100', TO_DATE('2019-03-15 11:11:43', 'yyyy-mm-dd hh24:mi:ss'));
     
 -- Ingresos del paciente atendido por todos
 INSERT INTO ingresar (id_medico, id_paciente, cama, habitacion, fecha_ingreso) VALUES 
