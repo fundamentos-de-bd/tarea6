@@ -261,18 +261,29 @@ SELECT *
 --Solucion.
 SELECT promedio, consultas, nombre, paterno, materno
     FROM paciente 
-    NATURAL JOIN(SELECT consultas, AVG(consultas) promedio, Id_paciente
-        FROM (SELECT COUNT(Id_paciente) consultas, Id_paciente
+    NATURAL JOIN ( SELECT *
+        FROM (SELECT consultas, Id_paciente, promedio
+            FROM (SELECT AVG(consultas) promedio
+                FROM (SELECT COUNT(Id_paciente) consultas
+                    FROM consultar
+                        WHERE ( EXTRACT(YEAR FROM Fecha_consulta) = 2019 AND 
+                            EXTRACT(MONTH FROM Fecha_consulta)  BETWEEN 1 AND 4
+                        )
+                        GROUP BY Id_paciente
+                    )
+            )
+            CROSS JOIN (SELECT COUNT(Id_paciente) consultas, Id_paciente
                   FROM consultar
                   WHERE ( EXTRACT(YEAR FROM Fecha_consulta) = 2019 AND 
                       EXTRACT(MONTH FROM Fecha_consulta)  BETWEEN 1 AND 4
                   )
                   GROUP BY Id_paciente
-             )
-        HAVING (consultas > AVG(consultas) )
-        GROUP BY Id_paciente, consultas
+            )
+        )
+        WHERE (promedio < consultas)
     );
 -- ========================================================================== --
+
 
 
 -- ========================================================================== --
