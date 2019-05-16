@@ -6,20 +6,20 @@
 
 
 -- ========================================================================== --
---  a.Mostrar el nÃºmero de consultas que ha brindado cada mÃ©dico por aÃ±o y trimestre.
---SoluciÃ³n.
+--  a.Mostrar el numero de consultas que ha brindado cada medico por anio y trimestre.
+--Solucion.
 
-SELECT id_medico, año, trimestre, COUNT(num_consulta) "Numero de consultas"
-FROM (SELECT num_consulta, id_medico, TO_CHAR(fecha_consulta, 'YYYY') AS año, 
+SELECT id_medico, anio, trimestre, COUNT(num_consulta) "Numero de consultas"
+FROM (SELECT num_consulta, id_medico, TO_CHAR(fecha_consulta, 'YYYY') AS anio, 
       TO_CHAR(fecha_consulta, 'Q') AS trimestre   
       FROM consultar)
-GROUP BY id_medico, año, trimestre;
+GROUP BY id_medico, anio, trimestre;
 
 -- ========================================================================== --
 
 -- ========================================================================== --
---  c.Nombre del mÃ©dico y especialidades que tiene, de aquel que haya impartido mÃ¡s consultas.
---SoluciÃ³n.
+--  c.Nombre del medico y especialidades que tiene, de aquel que haya impartido mas consultas.
+--Solucion.
 SELECT nombre, paterno, materno, nombre_especialidad, Numero_de_consultas
 FROM (SELECT id_medico, Numero_de_consultas
       FROM(SELECT id_medico, COUNT(num_consulta) AS Numero_de_consultas
@@ -40,8 +40,8 @@ FROM (SELECT id_medico, Numero_de_consultas
 
 
 -- ========================================================================== --
---  d.InformaciÃ³n de los pacientes que ingresaron en el cuarto trimestre de un aÃ±o que tu elijas y mÃ©dico que les fue asignado.
---SoluciÃ³n.
+--  d.Informacion de los pacientes que ingresaron en el cuarto trimestre de un aÃ±o que tu elijas y medico que les fue asignado.
+--Solucion.
 SELECT id_paciente, paciente.nombre, paciente.paterno , paciente.materno, paciente.calle, 
        paciente.numero, paciente.ciudad, medico.id_medico, medico.nombre, medico.paterno, medico.materno
 FROM (SELECT id_paciente, id_medico
@@ -52,9 +52,9 @@ FROM (SELECT id_paciente, id_medico
 
 
 -- ========================================================================== --
---  e.InformaciÃ³n de los mÃ©dicos que han sido pacientes, mostrar tambiÃ©n el nombre completo del mÃ©dico 
---    que los atendiÃ³ y fecha de la consulta.
---SoluciÃ³n.
+--  e.Informacion de los medicos que han sido pacientes, mostrar tambien el nombre completo del medico 
+--    que los atendio y fecha de la consulta.
+--Solucion.
 SELECT  paciente.id_paciente, paciente.nombre, paciente.paterno , paciente.materno, paciente.calle, 
        paciente.numero, paciente.ciudad, medico.id_medico, medico.nombre, medico.paterno, medico.materno
 FROM (SELECT id_medico, id_paciente
@@ -69,8 +69,8 @@ FROM (SELECT id_medico, id_paciente
 
 
 -- ========================================================================== --
---  f.Toda la informaciÃ³n de los pacientes que no han recibido consulta.
---SoluciÃ³n.
+--  f.Toda la informacion de los pacientes que no han recibido consulta.
+--Solucion.
 (SELECT *
 FROM paciente) minus
 (SELECT * 
@@ -81,7 +81,7 @@ FROM consultar) NATURAL JOIN paciente);
 
 -- ========================================================================== --
 --  g.Pacientes que han tomado consulta en cada uno de los consultorios del hospital.
---SoluciÃƒÂ³n.
+--Solucion.
 SELECT  id_paciente, nombre, paterno, materno
 FROM (SELECT id_paciente
      FROM( SELECT id_paciente, COUNT(consultorio) AS n_consultorios
@@ -95,7 +95,7 @@ FROM (SELECT id_paciente
 -- ========================================================================== --
 --  h.Pacientes que han ingresado por lo menos una vez al hospital, cuyo estado de procedencia 
 --    sea CDMX y su primer apellido sea Uriel (puedes cambiar el estado y el apellido).
---SoluciÃ³n.
+--Solucion.
 -- ========================================================================== --
 SELECT DISTINCT id_paciente 
     FROM ingresar NATURAL JOIN (
@@ -106,8 +106,8 @@ SELECT DISTINCT id_paciente
 
 
 -- ========================================================================== --
---  i.Indicar trimestre y aÃ±o en que se impartieron mÃ¡s consultas.
---SoluciÃ³n.
+--  i.Indicar trimestre y anio en que se impartieron mas consultas.
+--Solucion.
 -- ========================================================================== --
 SELECT anio, trimestre, num_consultas
     FROM (
@@ -128,9 +128,9 @@ SELECT anio, trimestre, num_consultas
 
 
 -- ========================================================================== --
---  j.Consultas que se impartieron por tipo de especialidad de julio a diciembre de un aÃ±o que 
---    tÃº elijas(se debe mostrar el nombre del mes).
---SoluciÃ³n.
+--  j.Consultas que se impartieron por tipo de especialidad de julio a diciembre de un anio que 
+--    tu elijas(se debe mostrar el nombre del mes).
+--Solucion.
 SELECT nombre_especialidad, num_consulta, mes_2013
     FROM especialidad NATURAL JOIN (
         SELECT id_especialidad, num_consulta, TO_CHAR(fecha_consulta, 'MONTH') mes_2013
@@ -288,8 +288,8 @@ SELECT *
 
 
 -- ========================================================================== --
---  t.Pacientes que haya tenido el mismo nÃƒÂºmero de ingresos y de consultas al hospital.
---SoluciÃƒÂ³n.
+--  t.Pacientes que haya tenido el mismo numero de ingresos y de consultas al hospital.
+--Solucion1.
 SELECT *
 FROM ( SELECT id_paciente, visitas
        FROM ((SELECT id_paciente, COUNT(num_ingreso) AS visitas
@@ -299,7 +299,7 @@ FROM ( SELECT id_paciente, visitas
                FROM consultar
                GROUP BY id_paciente))) NATURAL JOIN paciente;
 
---soluciÃ³n2.
+--solucion2.
 SELECT *
 FROM (SELECT *
       FROM(SELECT id_paciente, COUNT(num_ingreso) AS visitas
@@ -314,7 +314,7 @@ FROM (SELECT *
 
 -- ========================================================================== --
 --  u.Obtener una lista de los pacientes cuyo apellido paterno comience con las letras A, D, G, J, L, P o R.
---SoluciÃ³n.
+--Solucion.
 SELECT *
     FROM paciente
     WHERE REGEXP_LIKE(paterno, '^(A|D|G|J|L|P|R)(*)');
