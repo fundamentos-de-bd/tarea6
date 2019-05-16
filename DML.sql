@@ -264,12 +264,12 @@ SELECT promedio, consultas, nombre, paterno, materno
     NATURAL JOIN(SELECT consultas, AVG(consultas) promedio, Id_paciente
         FROM (SELECT COUNT(Id_paciente) consultas, Id_paciente
                   FROM consultar
-                  WHERE ( EXTRACT(YEAR FROM Fecha_consulta) = 2017 AND 
+                  WHERE ( EXTRACT(YEAR FROM Fecha_consulta) = 2019 AND 
                       EXTRACT(MONTH FROM Fecha_consulta)  BETWEEN 1 AND 4
                   )
                   GROUP BY Id_paciente
              )
-        HAVING (consultas >= AVG(consultas) )
+        HAVING (consultas > AVG(consultas) )
         GROUP BY Id_paciente, consultas
     );
 -- ========================================================================== --
