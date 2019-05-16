@@ -276,14 +276,14 @@ SELECT promedio, consultas, nombre, paterno, materno
 
 
 -- ========================================================================== --
---  s.Mostrar la distribuciÃ³n de pacientes que han ingresado al hospital por estado, aÃ±o y trimestre.
---SoluciÃ³n.
+--  s.Mostrar la distribucion de pacientes que han ingresado al hospital por estado, anio y trimestre.
+--Solucion.
 SELECT *
     FROM (
-        SELECT cp, TO_CHAR(fecha_ingreso, 'YYYY') aÃ±o_ingreso, TO_CHAR(fecha_ingreso, 'Q') trimestre_ingreso
+        SELECT cp, TO_CHAR(fecha_ingreso, 'YYYY') anio_ingreso, TO_CHAR(fecha_ingreso, 'Q') trimestre_ingreso
         FROM paciente NATURAL JOIN ingresar
     ) NATURAL JOIN paciente
-    ORDER BY cp, aÃ±o_ingreso, trimestre_ingreso;
+    ORDER BY cp, anio_ingreso, trimestre_ingreso;
 -- ========================================================================== --
 
 
